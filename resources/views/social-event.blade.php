@@ -9,7 +9,9 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="hero-cap hero-cap2 pt-20 text-center">
-                                <h2>social events </h2>
+                                <h2>OJ's Impacts </h2>
+                                <p class="pt-2">Saddled with the responsibility of overseeing the Basic Education
+                                    Quality Assurance (BEQA) </p>
                             </div>
                         </div>
                     </div>
@@ -22,14 +24,14 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-12 col-md-12">
-                        <div class="count-down-wrapper" >
+                        <div class="count-down-wrapper">
                             <div class="row justify-content-between">
                                 <div class="col-lg-3 col-md-6 col-sm-6">
                                     <!-- Counter Up -->
                                     <div class="single-counter text-center">
                                         <span class="counter color-green">6,200</span>
                                         <span class="plus">+</span>
-                                        <p class="color-green">Donation</p>
+                                        <p class="color-green">Development</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -37,7 +39,7 @@
                                     <div class="single-counter text-center">
                                         <span class="counter color-green">80</span>
                                         <span class="plus">+</span>
-                                        <p class="color-green">Fund Raised</p>
+                                        <p class="color-green">Assignment</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -45,15 +47,7 @@
                                     <div class="single-counter text-center">
                                         <span class="counter color-green">256</span>
                                         <span class="plus">+</span>
-                                        <p class="color-green">Donation</p>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6 col-sm-6">
-                                    <!-- Counter Up -->
-                                    <div class="single-counter text-center">
-                                        <span class="counter color-green">256</span>
-                                        <span class="plus">+</span>
-                                        <p class="color-green">Donation</p>
+                                        <p class="color-green">Completed</p>
                                     </div>
                                 </div>
                             </div>
@@ -63,130 +57,82 @@
             </div>
         </div>
         <!-- Count Down End -->
-        <!-- Featured_job_start -->
-        <section class="featured-job-area section-padding30 section-bg2" data-background="assets/img/gallery/section_bg03.png">
+        <!-- Our Recent Events Start -->
+        <div class="our-cases-area">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-xl-7 col-lg-9 col-md-10 col-sm-12">
+                    <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
                         <!-- Section Tittle -->
                         <div class="section-tittle text-center mb-80">
-                            <span>What we are boing</span>
-                            <h2>We arrange many social events for charity donations</h2>
                         </div>
                     </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-9 col-md-12">
-                        <!-- single-job-content -->
-                        <div class="single-job-items mb-30">
-                            <div class="job-items">
-                                <div class="company-img">
-                                    <a href="#"><img src="assets/img/gallery/socialEvents1.png" alt=""></a>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="single-cases mb-40">
+                                <div class="cases-img">
+                                    <img src="assets/img/gallery/impact-1.jpeg" alt="">
                                 </div>
-                                <div class="job-tittle">
-                                    <a href="#"><h4>Donation is Hope</h4></a>
-                                    <ul>
-                                        <li><i class="far fa-clock"></i>8:30 - 9:30am</li>
-                                        <li><i class="fas fa-sort-amount-down"></i>18.01.2021</li>
-                                        <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li>
-                                    </ul>
+                                <div class="cases-caption">
+                                    <h4><a class="text-decoration-underline" href="#">Meet the Local Talent Building
+                                            Learn how we're getting local residents involved in the building trades.</a>
+                                    </h4>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-9 col-md-12">
-                        <!-- single-job-content -->
-                        <div class="single-job-items mb-30">
-                            <div class="job-items">
-                                <div class="company-img">
-                                    <a href="#"><img src="assets/img/gallery/socialEvents2.png" alt=""></a>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="single-cases mb-40">
+                                <div class="cases-img">
+                                    <img src="assets/img/gallery/bg_2.jpg" alt="">
                                 </div>
-                                <div class="job-tittle">
-                                    <a href="#"><h4>A hand for Children</h4></a>
-                                    <ul>
-                                        <li><i class="far fa-clock"></i>8:30 - 9:30am</li>
-                                        <li><i class="fas fa-sort-amount-down"></i>18.01.2021</li>
-                                        <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li>
-                                    </ul>
+                                <div class="cases-caption">
+                                    <h4><a class="text-decoration-underline" href="#">Meet the Local Talent Building
+                                            Learn how we're getting local residents involved in the building trades.</a>
+                                    </h4>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-9 col-md-12">
-                        <!-- single-job-content -->
-                        <div class="single-job-items mb-30">
-                            <div class="job-items">
-                                <div class="company-img">
-                                    <a href="#"><img src="assets/img/gallery/socialEvents3.png" alt=""></a>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="single-cases mb-40">
+                                <div class="cases-img">
+                                    <img src="assets/img/gallery/impact-3.jpeg" height="240px" width="auto" alt="">
                                 </div>
-                                <div class="job-tittle">
-                                    <a href="#"><h4>Help for Children</h4></a>
-                                    <ul>
-                                        <li><i class="far fa-clock"></i>8:30 - 9:30am</li>
-                                        <li><i class="fas fa-sort-amount-down"></i>18.01.2021</li>
-                                        <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li>
-                                    </ul>
+                                <div class="cases-caption">
+                                    <h4><a class="text-decoration-underline" href="#">
+                                            Junior Achievers Nigeria (JAN) team led by Mr. Olaulu Akogun who is their
+                                            Programs Manager.
+                                            We look forward to an impactful....
+                                        </a></h4>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-9 col-md-12">
-                        <!-- single-job-content -->
-                        <div class="single-job-items mb-30">
-                            <div class="job-items">
-                                <div class="company-img">
-                                    <a href="#"><img src="assets/img/gallery/socialEvents1.png" alt=""></a>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="single-cases mb-40">
+                                <div class="cases-img">
+                                    <img src="assets/img/gallery/blog1.png" alt="">
                                 </div>
-                                <div class="job-tittle">
-                                    <a href="#"><h4>Donation is Hope</h4></a>
-                                    <ul>
-                                        <li><i class="far fa-clock"></i>8:30 - 9:30am</li>
-                                        <li><i class="fas fa-sort-amount-down"></i>18.01.2021</li>
-                                        <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li>
-                                    </ul>
+                                <div class="cases-caption">
+                                    <h4><a class="text-decoration-underline" href="#">Meet the Local Talent Building
+                                            Learn how we're getting local residents involved in the building trades.</a>
+                                    </h4>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-9 col-md-12">
-                        <!-- single-job-content -->
-                        <div class="single-job-items mb-30">
-                            <div class="job-items">
-                                <div class="company-img">
-                                    <a href="#"><img src="assets/img/gallery/socialEvents2.png" alt=""></a>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="single-cases mb-40">
+                                <div class="cases-img">
+                                    <img src="assets/img/gallery/img-1.jpeg" height="210px" width="auto" alt="">
                                 </div>
-                                <div class="job-tittle">
-                                    <a href="#"><h4>A hand for Children</h4></a>
-                                    <ul>
-                                        <li><i class="far fa-clock"></i>8:30 - 9:30am</li>
-                                        <li><i class="fas fa-sort-amount-down"></i>18.01.2021</li>
-                                        <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li>
-                                    </ul>
+                                <div class="cases-caption">
+                                    <h4><a class="text-decoration-underline" href="#">
+                                            We started the new academic calendar by engaging in strategic sessions and
+                                            engagements...
+                                        </a></h4>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-9 col-md-12">
-                        <!-- single-job-content -->
-                        <div class="single-job-items mb-30">
-                            <div class="job-items">
-                                <div class="company-img">
-                                    <a href="#"><img src="assets/img/gallery/socialEvents3.png" alt=""></a>
-                                </div>
-                                <div class="job-tittle">
-                                    <a href="#"><h4>Help for Children</h4></a>
-                                    <ul>
-                                        <li><i class="far fa-clock"></i>8:30 - 9:30am</li>
-                                        <li><i class="fas fa-sort-amount-down"></i>18.01.2021</li>
-                                        <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Featured_job_end -->
     </main>
 @endsection

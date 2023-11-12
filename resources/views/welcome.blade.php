@@ -82,6 +82,43 @@
             </div>
         </section>
         <!-- slider Area End-->
+        <!--? Count Down Start -->
+        <div class="count-down-area pt-25 section-bg" data-background="assets/img/gallery/section_bg02.png">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="count-down-wrapper" >
+                            <div class="row justify-content-between">
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <!-- Counter Up -->
+                                    <div class="single-counter text-center">
+                                        <span class="counter color-green">6,200</span>
+                                        <span class="plus">+</span>
+                                        <p class="color-green">Donation</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <!-- Counter Up -->
+                                    <div class="single-counter text-center">
+                                        <span class="counter color-green">20</span>
+                                        <span class="plus">M+</span>
+                                        <p class="color-green">Fund Raised</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6">
+                                    <!-- Counter Up -->
+                                    <div class="single-counter text-center">
+                                        <span class="counter color-green">10000</span>
+                                        <span class="plus">+</span>
+                                        <p class="color-green">Help</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!--? Services Area Start -->
         <div class="service-area section-padding30">
             <div class="container">
@@ -135,7 +172,7 @@
                                 <span class="flaticon-gear"></span>
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="services.html">Decent Work & Economic Growth</a></h5>
+                                <h5><a href="services.html"> Economic Growth</a></h5>
                                 <p>Promote development-oriented policies that support productive activities decent job
                                     creation</p>
                             </div>
@@ -156,10 +193,12 @@
                                 <span>About our foundetion</span>
                                 <h2>We Are In A Mission To Help Helpless</h2>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,mod tempor incididunt ut labore
-                                et dolore magna aliqua. Utnixm, quis nostrud exercitation ullamc.</p>
-                            <p>Lorem ipvsum dolor sit amext, consectetur adipisicing elit, smod tempor incididunt ut
-                                labore et dolore.</p>
+                            <p>We are Nigeria’s foremost development initiative borne out of a passion to build
+                                aspiring and emerging Nigerian leaders, entrepreneurs, innovators, and educationist
+                                who will be global changemakers.</p>
+                            <p>We were founded in 2022 by Falana, Owolabi Jamiu, to harness the potential of young Nigerians
+                                through capacity building and collaborative effort. The initiative will gear the culture of
+                                Nigerians to spur job creation, economic development, and social impact.</p>
                         </div>
                         <a href="about.html" class="btn">About US</a>
                     </div>
@@ -273,6 +312,41 @@
             </div>
         </div>
         <!-- Our Cases End -->
+        <!--? About Founder Start-->
+        <section class="about-low-area section-padding2">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-10">
+                        <div class="about-caption mb-50">
+                            <!-- Section Tittle -->
+                            <div class="section-tittle mb-35">
+                                <span>About founder</span>
+                                <h2>Owolabi J. Falana</h2>
+                            </div>
+                            <p>Owolabi Falana is a Board member at the Lagos State Universal Basic Education Board (SUBEB).
+                                The youthful politician is an economist, and a public policy strategist. A chieftain of the ruling
+                                All Progressives Congress (APC) in Lagos State, Falana is an active player in the presidential
+                                campaign of Asiwaju Bola Ahmed Tinubu as well as the re-election efforts of Governor Babajide Sanwo-Olu. </p>
+                            <p>At SUBEB, we have a policy of leaving no child behind and we are working assiduously through our various
+                                departments to advance this objective and also add value to the aspirations of Mr. Governor for the education sector.</p>
+                        </div>
+                        <a href="/portfolio" class="btn">Portfolio</a>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <!-- about-img -->
+                        <div class="about-img ">
+{{--                            <div class="about-font-img d-none d-lg-block">--}}
+{{--                                <img src="assets/img/gallery/about2.png" alt="">--}}
+{{--                            </div>--}}
+                            <div class="about-back-img ">
+                                <img src="assets/img/gallery/oj-profile-1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Founder End-->
         <!-- Featured_job_start -->
         <section class="featured-job-area section-padding30 section-bg2"
                  data-background="assets/img/gallery/section_bg03.png">

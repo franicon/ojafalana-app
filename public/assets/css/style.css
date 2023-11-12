@@ -5321,6 +5321,12 @@ hr {
   transition: 0.3s;
 }
 
+.cases-caption h4 a:hover {
+    color: #27467b;
+    text-decoration: underline;
+    line-height: 1;
+}
+
 @media (max-width: 1199px) {
   /* line 279, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_blog_page.scss */
   .single-blog h4 {

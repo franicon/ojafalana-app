@@ -3,10 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title> Ojfalana | Home</title>
+    <title> Welcome to Ojfalana | impacts | initiatives </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
+
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/Oj.svg">
 
     <!-- CSS here -->
@@ -64,15 +65,14 @@
                         <div class="row d-flex justify-content-between align-items-center">
                             <div class="header-info-left d-flex">
                                 <ul>
-                                    <li>Phone: +99 (0) 101 0000 888</li>
-                                    <li>Email: noreply@yourdomain.com</li>
+                                    <li>Phone: +2347010609060</li>
+                                    <li>Email: info@ojfalana.com</li>
                                 </ul>
                                 <div class="header-social">
                                     <ul>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a  href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                        <li> <a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                        <li><a href="https://twitter.com/Ojfalana/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a  href="https://web.facebook.com/owolabi.falana" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="https://www.linkedin.com/in/owolabi-falana-mniia-18724147/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -84,9 +84,9 @@
                 <div class="container-fluid">
                     <div class="row align-items-center">
                         <!-- Logo -->
-                        <div class="col-xl-2 col-lg-2">
+                        <div class="col-xl-2 col-lg-2 col-1">
                             <div class="logo">
-                                <a href="/"><img src="assets/img/logo/OJ Falana.svg" alt=""></a>
+                                <a href="/"><img src="assets/img/logo/OJ Falana.svg" alt="" class="logo"></a>
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10">
@@ -95,24 +95,20 @@
                                 <div class="main-menu d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a href="/">Home</a></li>
-                                            <li><a href="/about">About</a></li>
-                                            <li><a href="/portfolio">Portfolio</a></li>
-                                            <li><a href="/event">Social events </a></li>
-                                            <li><a href="/blog">Blog</a>
-                                                <ul class="submenu">
-                                                    <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="blog_details.html">Blog Details</a></li>
-                                                    <li><a href="elements.html">Element</a></li>
-                                                </ul>
-                                            </li>
+                                            <li><a href="/">Profile</a></li>
+{{--                                         3   <li><a href="/about">Profile</a></li>--}}
+                                            <li><a href="/impacts">impacts</a></li>
+                                            <li><a href="/initiatives">OJ Falana Initiatives </a></li>
+                                            <li><a href="/blog">Blog</a></li>
                                             <li><a href="/contact">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div>
                                 <!-- Header-btn -->
                                 <div class="header-right-btn d-none d-lg-block ml-20">
-                                    <a href="contact.html" class="btn header-btn">Donate</a>
+                                    @if (request()->route('initiatives'))
+                                        <a href="#" class="btn header-btn">Donate</a>
+                                    @endif
                                 </div>
                             </div>
                         </div>
@@ -152,10 +148,10 @@
                                 <h4>Contact Info</h4>
                                 <ul>
                                     <li>
-                                        <p>Address :Your address goes here, your demo address.</p>
+                                        <p>Address : 5, Folawewo street, off Allen Avenue, Ikeja, Lagos.</p>
                                     </li>
-                                    <li><a href="#">Phone : +8880 44338899</a></li>
-                                    <li><a href="#">Email : info@colorlib.com</a></li>
+                                    <li>Phone: +2347010609060</li>
+                                    <li>Email: info@ojfalana.com</li>
                                 </ul>
                             </div>
 
@@ -166,11 +162,10 @@
                             <div class="footer-tittle">
                                 <h4>Important Link</h4>
                                 <ul>
-                                    <li><a href="#"> View Project</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-                                    <li><a href="#">Testimonial</a></li>
-                                    <li><a href="#">Proparties</a></li>
-                                    <li><a href="#">Support</a></li>
+                                    <li><a href="/impacts">Impacts</a></li>
+                                    <li><a href="/initiatives">OJ Falana Initiatives</a></li>
+                                    <li><a href="/blog">Blog</a></li>
+                                    <li><a href="/contact">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -180,7 +175,7 @@
                             <div class="footer-tittle">
                                 <h4>Newsletter</h4>
                                 <div class="footer-pera footer-pera2">
-                                    <p>Heaven fruitful doesn't over lesser in days. Appear creeping.</p>
+                                    <p>Join our monthly news letter</p>
                                 </div>
                                 <!-- Form -->
                                 <div class="footer-form" >
@@ -218,10 +213,9 @@
                         </div>
                         <div class="col-xl-2 col-lg-3">
                             <div class="footer-social f-right">
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a  href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fas fa-globe"></i></a>
-                                <a href="#"><i class="fab fa-behance"></i></a>
+                                <a href="https://twitter.com/Ojfalana/" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a  href="https://web.facebook.com/owolabi.falana" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.linkedin.com/in/owolabi-falana-mniia-18724147/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>

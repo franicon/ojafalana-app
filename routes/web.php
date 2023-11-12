@@ -4,19 +4,18 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/about', function () {
-    return view('about');
-});
-
-Route::get('/portfolio', function () {
     return view('portfolio');
 });
 
-Route::get('/event', function () {
+//Route::get('/about', function () {
+//});
+
+Route::get('/impacts', function () {
     return view('social-event');
+});
+
+Route::get('/initiatives', function () {
+    return view('welcome');
 });
 
 Route::get('/blog', function () {
@@ -25,5 +24,12 @@ Route::get('/blog', function () {
 
 Route::get('/contact', function () {
     return view('contact');
+});
+
+
+// Admin
+
+Route::get('/dashboard', function () {
+    return view('admin/index');
 });
 
