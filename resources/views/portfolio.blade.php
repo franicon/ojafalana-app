@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="text-container">
-                        <h1 class="h1-large">"Elevate your brothers when you are elevating yourself." - <i><small>Owolabi Falana</small></i> </h1>
+                        <h1 class="h1-large">"A man who found himself to be famous in the morning hasn't gone to sleep." - <i><small>Owolabi Falana</small></i> </h1>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -17,9 +17,9 @@
     <!--? About Founder Start-->
     <section class="about-low-area section-padding2">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center ftco-section">
                 <div class="col-lg-6 col-md-10">
-                    <div class="about-caption mb-50">
+                    <div class="about-caption mb-50 ftco-animate">
                         <!-- Section Tittle -->
                         <div class="section-tittle mb-25">
                             <span>About</span>
@@ -34,18 +34,18 @@
                             As the youngest Permanent Board Member at Lagos State Universal Basic Education Board (SUBEB), he sets a precedent for leadership.</p>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12 ftco-animate text-center">
                     <!-- about-img -->
                     <div class="about-img ">
                         <div class="about-font-img d-none d-lg-block">
                             <img src="assets/img/gallery/oj-profile-2.png" alt="">
                         </div>
-                        <div class="about-back-img ">
+                        <div class="about-back-img">
                             <img src="assets/img/gallery/oj-profile-1.png" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-12 col-md-10">
+                <div class="col-lg-12 col-md-10 ftco-animate">
                     <div class="about-caption mb-50 mt-50">
                         <p>
                             Being the first Permanent Board Member at Lagos SUBEB to tour all 20 Local Government Education
@@ -56,65 +56,91 @@
                         <p>In 2016, he founded Ohjay Group, now a prominent name in construction
                             and project planning management.</p>
                     </div>
+                    <h3><a href="#" class="btn p-4">More About OJ &rightarrow;</a></h3>
+
                 </div>
             </div>
         </div>
     </section>
     <!-- About Founder End-->
     <!-- Our Recent Events Start -->
-    <div class="our-cases-area">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
-                    <!-- Section Tittle -->
-                    <div class="section-tittle text-center mb-80">
+    <section class="ftco-section bg-light mb-80">
+        <div class="container-fluid">
+            <div class="row justify-content-center mb-5 pb-3">
+                <div class="col-md-5 ftco-animate text-center">
+                    <div class="section-tittle text-center mb-25">
                         <span>Impacts</span>
-                        <h2>OJ's Impacts in the office</h2>
+                        <h2 class="impact-font">OJ's Impacts in the office</h2>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-cases mb-40">
-                        <div class="cases-img">
-                            <img src="assets/img/gallery/impact-1.jpeg" alt="">
+                <div class="col-md-12 ftco-animate">
+                    <div class="carousel-cause owl-carousel">
+                        <div class="item">
+                            <div class="cause-entry">
+                                <a href="#" class="img" style="background-image: url(assets/img/gallery/impact-3.jpeg);"></a>
+                                <div class="text p-3 p-md-4">
+                                    <h3><a href="#">Saddled with the responsibility of overseeing (BEQA)</a></h3>
+                                    <p>Started the new academic calendar by engaging in strategic sessions and engagements
+                                        with various stakeholders in the basic education sector. </p>
+                                    <p> <a href="/impacts" class="donation-time mb-3 text-primary">Learn more &rightarrow;</a></p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="cases-caption">
-                            <h4><a href="#">Saddled with the responsibility of overseeing the Basic Education Quality Assurance (BEQA)</a></h4>
+                        <div class="item">
+                            <div class="cause-entry">
+                                <a href="#" class="img" style="background-image: url(assets/img/gallery/impact-1.jpeg);"></a>
+                                <div class="text p-3 p-md-4">
+                                    <h3><a href="#">Saddled with the responsibility of overseeing (BEQA)</a></h3>
+                                    <p>Started the new academic calendar by engaging in strategic sessions and engagements
+                                        with various stakeholders in the basic education sector. </p>
+                                    <p> <a href="/impacts" class="donation-time mb-3 text-primary">Learn more &rightarrow;</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="cause-entry">
+                                <a href="#" class="img" style="background-image: url(assets/img/gallery/impact-2.jpeg);"></a>
+                                <div class="text p-3 p-md-4">
+                                    <h3><a href="#">Saddled with the responsibility of overseeing (BEQA)</a></h3>
+                                    <p>Started the new academic calendar by engaging in strategic sessions and engagements
+                                        with various stakeholders in the basic education sector. </p>
+                                    <p> <a href="/impacts" class="donation-time mb-3 text-primary">Learn more &rightarrow;</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="cause-entry">
+                                <a href="#" class="img" style="background-image: url(assets/img/gallery/impact-4.jpeg);"></a>
+                                <div class="text p-3 p-md-4">
+                                    <h3><a href="#">Saddled with the responsibility of overseeing (BEQA)</a></h3>
+                                    <p>Started the new academic calendar by engaging in strategic sessions and engagements
+                                        with various stakeholders in the basic education sector. </p>
+                                    <p> <a href="/impacts" class="donation-time mb-3 text-primary">Learn more &rightarrow;</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="cause-entry">
+                                <a href="#" class="img" style="background-image: url(assets/img/gallery/impact-5.jpeg);"></a>
+                                <div class="text p-3 p-md-4">
+                                    <h3><a href="#">Saddled with the responsibility of overseeing (BEQA)</a></h3>
+                                    <p>Started the new academic calendar by engaging in strategic sessions and engagements
+                                        with various stakeholders in the basic education sector. </p>
+                                    <p> <a href="/impacts" class="donation-time mb-3 text-primary">Learn more &rightarrow;</a></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-cases mb-40">
-                        <div class="cases-img">
-                            <img src="assets/img/gallery/bg_2.jpg" alt="">
-                        </div>
-                        <div class="cases-caption">
-                            <h4><a href="#">Saddled with the responsibility of overseeing the Basic Education Quality Assurance (BEQA)</a></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-cases mb-30">
-                        <div class="cases-img">
-                            <img src="assets/img/gallery/bg_3.jpg" alt="">
-                        </div>
-                        <div class="cases-caption">
-                            <h4><a href="#">Saddled with the responsibility of overseeing the Basic Education Quality Assurance (BEQA)</a></h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-               <div class="">
-                   <a href="/impacts" class="btn text-center">Explore OJ's Impacts &rightarrow;</a>
-               </div>
             </div>
         </div>
-    </div>
+    </section>
+
     <!-- Initiates Start -->
-    <section class="about-low-area section-padding2">
-        <div class="container">
+    <section class="about-low-area section-padding2 ftco-section mb-80">
+        <div class="container ftco-animate">
             <div class="row">
                 <div class="col-lg-6 col-md-10">
                     <div class="about-caption mb-50">
@@ -130,11 +156,11 @@
                             through capacity building and collaborative effort. The initiative will gear the culture of
                             Nigerians to spur job creation, economic development, and social impact.</p>
                     </div>
-                    <a href="/initiatives" class="btn">About OJ's Initiatives</a>
+                    <h3><a href="/initiatives" class="btn p-4">About OJ's Initiatives</a></h3>
                 </div>
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-6 col-md-12 ftco-animate">
                     <!-- about-img -->
-                    <div class="about-img ">
+                    <div class="about-img text-center">
                         <div class="about-font-img d-none d-lg-block">
                             <img src="assets/img/gallery/about2.png" alt="">
                         </div>

@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
 
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/Oj.svg">
+    <link rel="icon" type="image/x-icon" href="./assets/img/Oj.svg">
 
     <!-- CSS here -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/css/flaticon.css">
     <link rel="stylesheet" href="assets/css/progressbar_barfiller.css">
     <link rel="stylesheet" href="assets/css/gijgo.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/animated-headline.css">
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
@@ -25,6 +26,8 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style-2.css">
+
 
     <link rel="stylesheet" href="css/animate.css">
 
@@ -35,6 +38,7 @@
 
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -229,6 +233,7 @@
 <div id="back-top" >
     <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
 </div>
+{{--<script src="./assets/js/aos.js"></script>--}}
 <script src="js/jquery.min.js"></script>
 <script src="js/jquery-migrate-3.0.1.min.js"></script>
 <script src="js/popper.min.js"></script>
@@ -246,6 +251,8 @@
 <script src="js/google-map.js"></script>
 <script src="js/main.js"></script>
 <!-- JS here -->
+<script src="js/aos.js"></script>
+<script src="js/main-2.js"></script>
 
 <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
 <!-- Jquery, Popper, Bootstrap -->
