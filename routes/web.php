@@ -11,11 +11,11 @@ Route::get('/', function () {
 //});
 
 Route::get('/impacts', function () {
-    return view('social-event');
+    return view('impacts');
 });
 
 Route::get('/initiatives', function () {
-    return view('welcome');
+    return view('initiative');
 });
 
 Route::get('/blog', function () {

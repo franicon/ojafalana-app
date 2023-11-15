@@ -53,7 +53,7 @@
         <div class="preloader-inner position-relative">
             <div class="preloader-circle"></div>
             <div class="preloader-img pere-text">
-                <img src="assets/img/logo/OJ Falana.svg" alt="">
+                <img src="assets/img/logo/loader-logo.svg" alt="">
             </div>
         </div>
     </div>
@@ -84,13 +84,13 @@
                     </div>
                 </div>
             </div>
-            <div class="header-bottom  header-sticky">
+            <div class="header-bottom header-sticky">
                 <div class="container-fluid">
                     <div class="row align-items-center">
                         <!-- Logo -->
-                        <div class="col-xl-2 col-lg-2 col-1">
+                        <div class="col-xl-1 col-lg-2 col-1">
                             <div class="logo">
-                                <a href="/"><img src="assets/img/logo/OJ Falana.svg" alt="" class="logo"></a>
+                                <a href="/"><img src="assets/img/logo/OJ Falana.svg" width="" alt="" class="logo"></a>
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10">
@@ -107,12 +107,6 @@
                                             <li><a href="/contact">Contact</a></li>
                                         </ul>
                                     </nav>
-                                </div>
-                                <!-- Header-btn -->
-                                <div class="header-right-btn d-none d-lg-block ml-20">
-                                    @if (request()->route('initiatives'))
-                                        <a href="#" class="btn header-btn">Donate</a>
-                                    @endif
                                 </div>
                             </div>
                         </div>
@@ -299,6 +293,16 @@
 <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
 <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
 <script src="js/scripts.js"></script> <!-- Custom scripts -->
+<!-- ===============================================-->
+<!--    JavaScripts-->
+<!-- ===============================================-->
+<script src="vendors-2/@popperjs/popper.min.js"></script>
+<script src="vendors-2/bootstrap/bootstrap.min.js"></script>
+<script src="vendors-2/is/is.min.js"></script>
+<script src="vendors-2/swiper/swiper-bundle.min.js"> </script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+<script src="vendors-2/fontawesome/all.min.js"></script>
+<script src="assets-2/js/theme.js"></script>
 
 </body>
 </html>

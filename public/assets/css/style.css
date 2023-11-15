@@ -32,7 +32,9 @@
 .white-bg {
   background: #ffffff;
 }
-
+a img {
+    width: 180px !important;
+}
 /* line 36, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_color.scss */
 .gray-bg {
   background: #f5f5f5;
@@ -434,6 +436,10 @@ hr {
   .mb-90 {
     margin-bottom: 30px;
   }
+
+    a img {
+        width: 200px !important;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -3142,6 +3148,9 @@ hr {
   .header-area .header-top {
     padding: 9px 0px;
   }
+    a img {
+        width: 150px !important;
+    }
 }
 
 /* line 36, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_headerMenu.scss */
@@ -3427,7 +3436,7 @@ hr {
 
 /* line 264, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_headerMenu.scss */
 .mobile_menu .slicknav_menu .slicknav_btn {
-  top: -30px;
+  top: -40px;
 }
 
 /* line 267, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_headerMenu.scss */

@@ -54,7 +54,7 @@
             .header-social {
                & > ul{
                     & > li{
-                        display: inline-block; 
+                        display: inline-block;
                         & > a{
                             color: #7b8693;
                             font-size: 14px;
@@ -120,7 +120,7 @@
                     }
                 }
             }
-        }     
+        }
     }
     .header-bottom{
         // mobile menu show
@@ -204,7 +204,7 @@
                             // @include transition(.4s);
                         }
                     }
-                } 
+                }
             }
         }
     }
@@ -215,7 +215,7 @@
     opacity: 1;
     top: 100%;
 }
- 
+
 .header-transparent {
 	position: absolute;
 	top: 0;
@@ -247,7 +247,7 @@
             }
             @media #{$xs}{
                 padding: 15px 0px;
-            } 
+            }
         }
     }
 }

@@ -33,6 +33,63 @@
   --breakpoint-xl: 1200px;
 }
 
+@-webkit-keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(-250px * 7));
+        transform: translateX(calc(-250px * 7));
+    }
+}
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(-250px * 7));
+        transform: translateX(calc(-250px * 7));
+    }
+}
+.slider {
+    box-shadow: 0 10px 5px -5px rgba(47, 48, 114, 0.16);
+    height: 400px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+.slider::before, .slider::after {
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 400px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+.slider::after {
+    right: 0;
+    top: 0;
+    -webkit-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+}
+.slider::before {
+    left: 0;
+    top: 0;
+}
+.slider .slide-track {
+    -webkit-animation: scroll 30s linear infinite;
+    animation: scroll 30s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+.slider .slide {
+    height: 400px;
+    width: auto;
+}
+
 *,
 *::before,
 *::after {
@@ -204,7 +261,9 @@ textarea {
 button,
 input {
   overflow: visible; }
-
+a  {
+    font-size: 13px!important;
+}
 button,
 select {
   text-transform: none; }
@@ -8006,6 +8065,14 @@ h1, h2, h3, h4, h5,
       line-height: 1.4;
       font-size: 45px; }
       @media (max-width: 991.98px) {
+          .slider::before, .slider::after {
+              background: linear-gradient(to right, rgba(255, 255, 255, 0.59) 0%, rgba(255, 255, 255, 0) 100%);
+              content: "";
+              height: 400px;
+              position: absolute;
+              width: 50px;
+              z-index: 2;
+          }
         .hero-wrap .slider-text h1 {
           font-size: 40px; } }
       .hero-wrap .slider-text h1 span {
