@@ -7702,20 +7702,21 @@ h1, h2, h3, h4, h5,
     display: block;
     width: 100%;
     padding: 30px;
-    color: rgba(0, 0, 0, 0.7); }
+    color: rgb(255, 255, 255); }
     .ftco-intro .block-18.color-1 {
-      background: #f86f2d; }
+      background: rgb(62, 64, 149); }
     .ftco-intro .block-18.color-2 {
-      background: #fa8f3d; }
+      background: rgb(53, 55, 137); }
     .ftco-intro .block-18.color-3 {
-      background: #faaa3a; }
+      background: rgba(45, 47, 125, 0.99);
+    }
     .ftco-intro .block-18 .text strong {
       font-size: 60px;
-      color: #000;
+      color: #ffffff;
       font-weight: 300; }
     .ftco-intro .block-18 .text span {
       display: block;
-      color: #000;
+      color: #ffffff;
       font-size: 24px; }
 
 .services .icon {

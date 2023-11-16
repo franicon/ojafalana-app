@@ -77,7 +77,7 @@
     <section class="mb-140 section-padding" id="header">
         <div class="container ftco-animate">
             <div class="section-tittle mb-25 text-center">
-                <h2>Oj's Impacts in the office.</h2>
+                <h2 class="text-center">Oj's Impacts in the office.</h2>
                 <p class="text-700"> As Permanent Board Member at Lagos State Universal Basic Education Board
                     (SUBEB).</p>
             </div>
@@ -200,7 +200,7 @@
                 <div class="col-xl-5 col-lg-6 col-md-9 col-sm-10">
                     <div class="section-tittle text-center mb-90">
                         <span>Our recent blog</span>
-                        <h2>Latest News</h2>
+                        <h2 class="text-c">Latest News</h2>
                     </div>
                 </div>
             </div>

@@ -62,7 +62,6 @@
     width: auto;
 }
 .slider::before, .slider::after {
-    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
     content: "";
     height: 400px;
     position: absolute;
@@ -8066,7 +8065,6 @@ h1, h2, h3, h4, h5,
       font-size: 45px; }
       @media (max-width: 991.98px) {
           .slider::before, .slider::after {
-              background: linear-gradient(to right, rgba(255, 255, 255, 0.59) 0%, rgba(255, 255, 255, 0) 100%);
               content: "";
               height: 400px;
               position: absolute;
@@ -8481,8 +8479,8 @@ h1, h2, h3, h4, h5,
   overflow-x: hidden;
   position: relative;
   padding: 5em 0;
-  background: #4c7bcb;
-  background: url(../images/moroccan-flower-dark.png); }
+  background: #f9fbff;
+  }
   @media (max-width: 1199.98px) {
     .ftco-counter {
       background-position: center center !important; } }

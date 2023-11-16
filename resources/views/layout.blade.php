@@ -39,7 +39,7 @@
     <link rel="stylesheet" href="css/jquery.timepicker.css">
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/style.css">
 
 {{--    <link href="css/bootstrap.css" rel="stylesheet">--}}
     <link href="css/fontawesome-all.css" rel="stylesheet">
