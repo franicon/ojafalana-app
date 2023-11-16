@@ -7,8 +7,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
-
-    <link rel="icon" type="image/x-icon" href="./assets/img/Oj.svg">
+{{--    <link rel="shortcut icon" href="{{asset('Oj.svg')}}" type="image/x-icon">--}}
 
     <!-- CSS here -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -40,7 +39,7 @@
     <link rel="stylesheet" href="css/jquery.timepicker.css">
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/app.css">
 
 {{--    <link href="css/bootstrap.css" rel="stylesheet">--}}
     <link href="css/fontawesome-all.css" rel="stylesheet">
