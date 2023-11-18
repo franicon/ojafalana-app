@@ -5,7 +5,7 @@
         <!-- slider Area Start-->
         <section class="hero-wrap js-fullheight">
             <div class="home-slider js-fullheight owl-carousel">
-                <div class="slider-item js-fullheight" style="background-image:url({{ asset('images/bg_4.jpg') }});">
+                <div class="slider-item js-fullheight" style="background-image:url({{ asset('assets/img/gallery/bg_4.jpg') }});">
                     <div class="overlay-1"></div>
                     <div class="overlay-2"></div>
                     <div class="overlay-3"></div>
@@ -30,7 +30,7 @@
                     </div>
                 </div>
 
-                <div class="slider-item js-fullheight" style="background-image:url(images/bg_2.jpg);">
+                <div class="slider-item js-fullheight" style="background-image:url('assets/img/gallery/bg_2.jpg');">
                     <div class="overlay-1"></div>
                     <div class="overlay-2"></div>
                     <div class="overlay-3"></div>
@@ -55,7 +55,7 @@
                     </div>
                 </div>
 
-                <div class="slider-item js-fullheight" style="background-image:url(images/bg_3.jpg);">
+                <div class="slider-item js-fullheight" style="background-image:url(assets/img/gallery/bg_3.jpg);">
                     <div class="overlay-1"></div>
                     <div class="overlay-2"></div>
                     <div class="overlay-3"></div>

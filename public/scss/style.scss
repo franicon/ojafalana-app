@@ -3,7 +3,7 @@
 
 $font-primary: 'Montserrat',Arial, sans-serif;
 
-$white: #fff;
+$white: #533737;
 $black: #000000;
 $darken: #00043c;
 $light: #fff5ed;
@@ -881,7 +881,7 @@ h1, h2, h3, h4, h5,
 	.text{
 		padding: 30px 45px;
 		padding-bottom: 55px;
-		color: rgba(255,255,255,.8);
+		color: rgba(21, 9, 9, 0.8);
 		@include media-breakpoint-down(md){
 			padding: 20px;
 			padding-bottom: 45px;

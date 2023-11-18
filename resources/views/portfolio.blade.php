@@ -16,7 +16,7 @@
     </header> <!-- end of header -->
     <!-- end of header -->
     <!--? About Founder Start-->
-    <section class="about-low-area section-padding mb-50">
+    <section class="about-low-area section-padding ">
         <div class="container">
             <div class="row justify-content-center ftco-section">
                 <div class="col-lg-6 col-md-10">
@@ -53,7 +53,7 @@
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-10 ftco-animate">
-                    <div class="about-caption mb-50 mt-50">
+                    <div class="about-caption  mt-50">
                         <p>
                             Being the first Permanent Board Member at Lagos SUBEB to tour all 20 Local Government
                             Education
@@ -76,49 +76,43 @@
     <!-- Our Impacts Start -->
     <section class="mb-140 section-padding" id="header">
         <div class="container ftco-animate">
-            <div class="section-tittle mb-25 text-center">
+            <div class="section-tittle mb-50 text-center">
                 <h2 class="text-center">Oj's Impacts in the office.</h2>
                 <p class="text-700"> As Permanent Board Member at Lagos State Universal Basic Education Board
                     (SUBEB).</p>
             </div>
-            <div class="row align-items-center ">
-                <div class="col-12 text-center mb-30">
-                    <h1 class="section-tittle"> </h1>
-
-                </div>
-            </div>
         </div>
-        <div class="slider ftco-animate">
+        <div class="slider ftco-animate mt-150">
             <div class="slide-track">
                 <div class="slide">
-                    <img class="w-auto h-80 px-4 m-auto rounded-lg" src="assets/img/impacts/impact-4.jpeg" alt="products"/>
+                    <img class="w-auto h-80 px-4 m-auto rounded-lg" src="assets/img/impacts/profile/1.jpg" alt="products"/>
                 </div>
                 <div class="slide">
-                    <img class="w-auto h-80 px-4 m-auto rounded-lg" src="assets/img/impacts/impact-20.jpeg" alt="products"/>
+                    <img class="w-auto h-80 px-4 m-auto rounded-lg" src="assets/img/impacts/profile/2.jpeg" alt="products"/>
                 </div>
                 <div class="slide">
-                    <img class="w-auto h-80 px-4 m-auto rounded-lg" src="assets/img/impacts/impact-30.jpg" alt="products"/>
+                    <img class="w-auto h-80 px-4 m-auto rounded-lg" src="assets/img/impacts/profile/3.jpeg" alt="products"/>
                 </div>
                 <div class="slide">
-                    <img class="w-auto h-80 px-4 m-auto rounded-lg" src="assets/img/impacts/impact-16.jpg" alt="products"/>
+                    <img class="w-auto h-80 px-4 m-auto rounded-lg" src="assets/img/impacts/profile/4.jpg" alt="products"/>
                 </div>
                 <div class="slide">
-                    <img class="w-auto h-80 px-4 m-auto rounded-lg" src="assets/img/impacts/impact-6.jpeg" alt="products"/>
+                    <img class="w-auto h-80 px-4 m-auto rounded-lg" src="assets/img/impacts/profile/5.jpg" alt="products"/>
                 </div>
                 <div class="slide">
-                    <img class="w-auto h-80 px-4 m-auto rounded-lg" src="assets/img/impacts/impact-25.jpeg" alt="products"/>
+                    <img class="w-auto h-80 px-4 m-auto rounded-lg" src="assets/img/impacts/profile/6.jpg" alt="products"/>
                 </div>
                 <div class="slide">
-                    <img class="w-auto h-80 px-4 m-auto rounded-lg" src="assets/img/impacts/impact-17.jpg" alt="products"/>
+                    <img class="w-auto h-80 px-4 m-auto rounded-lg" src="assets/img/impacts/profile/7.jpg" alt="products"/>
                 </div>
                 <div class="slide">
-                    <img class="w-auto h-80 px-4 m-auto rounded-lg" src="assets/img/impacts/impact-14.jpg" alt="products"/>
+                    <img class="w-auto h-80 px-4 m-auto rounded-lg" src="assets/img/impacts/profile/8.jpg" alt="products"/>
                 </div>
                 <div class="slide">
-                    <img class="w-auto h-80 px-4 m-auto rounded-lg" src="assets/img/impacts/impact-19.jpg" alt="products"/>
+                    <img class="w-auto h-80 px-4 m-auto rounded-lg" src="assets/img/impacts/profile/9.jpg" alt="products"/>
                 </div>
                 <div class="slide">
-                    <img class="w-auto h-80 px-4 m-auto rounded-lg" src="assets/img/impacts/impact-14.jpg" alt="products"/>
+                    <img class="w-auto h-80 px-4 m-auto rounded-lg" src="assets/img/impacts/profile/10.jpeg" alt="products"/>
                 </div>
             </div>
         </div>
@@ -155,7 +149,6 @@
         {{--            </div>--}}
         {{--        </div>--}}
     </section>
-
     <!-- Initiates Start -->
     <section class="about-low-area section-padding ftco-section mb-140">
         <div class="container ftco-animate">
