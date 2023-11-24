@@ -193,14 +193,16 @@
                                 <span>About our foundetion</span>
                                 <h2>We Are In A Mission To Help Helpless</h2>
                             </div>
-                            <p>We are Nigeria’s foremost development initiative borne out of a passion to build
-                                aspiring and emerging Nigerian leaders, entrepreneurs, innovators, and educationist
-                                who will be global changemakers.</p>
-                            <p>We were founded in 2022 by Falana, Owolabi Jamiu, to harness the potential of young Nigerians
-                                through capacity building and collaborative effort. The initiative will gear the culture of
-                                Nigerians to spur job creation, economic development, and social impact.</p>
+                            <p>We are Nigeria’s foremost development initiative borne out of a passion to
+                                build aspiring and emerging Nigerian leaders, entrepreneurs, innovators,
+                                and educationist who will be global changemakers.
+                            </p>
+                            <p>
+                                We were founded in 2022 by Falana, Owolabi Jamiu, to harness the potential of young Nigerians through capacity building and collaborative effort.
+                                The initiative will gear the culture of Nigerians to spur job creation, economic development, and social impact.
+
+                            </p>
                         </div>
-                        <a href="about.html" class="btn">About US</a>
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <!-- about-img -->
@@ -216,101 +218,133 @@
                 </div>
             </div>
         </section>
-        <!-- About Law End-->
-        <!-- Our Cases Start -->
-        <div class="our-cases-area section-padding30">
+        <section class="home-blog-area">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
-                        <!-- Section Tittle -->
-                        <div class="section-tittle text-center mb-80">
-                            <span>Our Cases you can see</span>
-                            <h2>Explore our latest causes that we works </h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cases mb-40">
-                            <div class="cases-img">
-                                <img src="assets/img/gallery/case1.png" alt="">
-                            </div>
-                            <div class="cases-caption">
-                                <h3><a href="#">Ensure Education For Every Poor Children</a></h3>
-                                <!-- Progress Bar -->
-                                <div class="single-skill mb-15">
-                                    <div class="bar-progress">
-                                        <div id="bar1" class="barfiller">
-                                            <div class="tipWrap">
-                                                <span class="tip"></span>
-                                            </div>
-                                            <span class="fill" data-percentage="70"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- / progress -->
-                                <div class="prices d-flex justify-content-between">
-                                    <p>Raised:<span> $20,000</span></p>
-                                    <p>Goal:<span> $35,000</span></p>
+                <!-- Section Tittle -->
+                <div class="row align-items-stretch">
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="home-blog-single mb-30">
+                            <div class="blog-img-cap">
+                                <div class="blog-cap">
+                                    <h3>Mission</h3>
+                                    <p>
+                                            To foster sustainable development by promoting quality leadership and economic intervention programs among Nigerians.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cases mb-40">
-                            <div class="cases-img">
-                                <img src="assets/img/gallery/case2.png" alt="">
-                            </div>
-                            <div class="cases-caption">
-                                <h3><a href="#">Providing Healthy Food For The Children</a></h3>
-                                <!-- Progress Bar -->
-                                <div class="single-skill mb-15">
-                                    <div class="bar-progress">
-                                        <div id="bar2" class="barfiller">
-                                            <div class="tipWrap">
-                                                <span class="tip"></span>
-                                            </div>
-                                            <span class="fill" data-percentage="25"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- / progress -->
-                                <div class="prices d-flex justify-content-between">
-                                    <p>Raised:<span> $20,000</span></p>
-                                    <p>Goal:<span> $35,000</span></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-cases mb-40">
-                            <div class="cases-img">
-                                <img src="assets/img/gallery/case3.png" alt="">
-                            </div>
-                            <div class="cases-caption">
-                                <h3><a href="#">Supply Drinking Water For The People</a></h3>
-                                <!-- Progress Bar -->
-                                <div class="single-skill mb-15">
-                                    <div class="bar-progress">
-                                        <div id="bar3" class="barfiller">
-                                            <div class="tipWrap">
-                                                <span class="tip"></span>
-                                            </div>
-                                            <span class="fill" data-percentage="50"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- / progress -->
-                                <div class="prices d-flex justify-content-between">
-                                    <p>Raised:<span> $20,000</span></p>
-                                    <p>Goal:<span> $35,000</span></p>
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="home-blog-single mb-30">
+                            <div class="blog-img-cap">
+                                <div class="blog-cap">
+                                    <h3>Vision</h3>
+                                    <p>
+                                            To be the leading community builder in the sub-sahara Africa,
+                                            providing transformational leadership, personal development skills, and economic empowerment.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <!-- About Law End-->
+        <!-- Our Cases Start -->
+{{--        <div class="our-cases-area section-padding30">--}}
+{{--            <div class="container">--}}
+{{--                <div class="row justify-content-center">--}}
+{{--                    <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">--}}
+{{--                        <!-- Section Tittle -->--}}
+{{--                        <div class="section-tittle text-center mb-80">--}}
+{{--                            <span>Our Cases you can see</span>--}}
+{{--                            <h2>Explore our latest causes that we works </h2>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="row">--}}
+{{--                    <div class="col-lg-4 col-md-6 col-sm-6">--}}
+{{--                        <div class="single-cases mb-40">--}}
+{{--                            <div class="cases-img">--}}
+{{--                                <img src="assets/img/gallery/case1.png" alt="">--}}
+{{--                            </div>--}}
+{{--                            <div class="cases-caption">--}}
+{{--                                <h3><a href="#">Ensure Education For Every Poor Children</a></h3>--}}
+{{--                                <!-- Progress Bar -->--}}
+{{--                                <div class="single-skill mb-15">--}}
+{{--                                    <div class="bar-progress">--}}
+{{--                                        <div id="bar1" class="barfiller">--}}
+{{--                                            <div class="tipWrap">--}}
+{{--                                                <span class="tip"></span>--}}
+{{--                                            </div>--}}
+{{--                                            <span class="fill" data-percentage="70"></span>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <!-- / progress -->--}}
+{{--                                <div class="prices d-flex justify-content-between">--}}
+{{--                                    <p>Raised:<span> $20,000</span></p>--}}
+{{--                                    <p>Goal:<span> $35,000</span></p>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-lg-4 col-md-6 col-sm-6">--}}
+{{--                        <div class="single-cases mb-40">--}}
+{{--                            <div class="cases-img">--}}
+{{--                                <img src="assets/img/gallery/case2.png" alt="">--}}
+{{--                            </div>--}}
+{{--                            <div class="cases-caption">--}}
+{{--                                <h3><a href="#">Providing Healthy Food For The Children</a></h3>--}}
+{{--                                <!-- Progress Bar -->--}}
+{{--                                <div class="single-skill mb-15">--}}
+{{--                                    <div class="bar-progress">--}}
+{{--                                        <div id="bar2" class="barfiller">--}}
+{{--                                            <div class="tipWrap">--}}
+{{--                                                <span class="tip"></span>--}}
+{{--                                            </div>--}}
+{{--                                            <span class="fill" data-percentage="25"></span>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <!-- / progress -->--}}
+{{--                                <div class="prices d-flex justify-content-between">--}}
+{{--                                    <p>Raised:<span> $20,000</span></p>--}}
+{{--                                    <p>Goal:<span> $35,000</span></p>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-lg-4 col-md-6 col-sm-6">--}}
+{{--                        <div class="single-cases mb-40">--}}
+{{--                            <div class="cases-img">--}}
+{{--                                <img src="assets/img/gallery/case3.png" alt="">--}}
+{{--                            </div>--}}
+{{--                            <div class="cases-caption">--}}
+{{--                                <h3><a href="#">Supply Drinking Water For The People</a></h3>--}}
+{{--                                <!-- Progress Bar -->--}}
+{{--                                <div class="single-skill mb-15">--}}
+{{--                                    <div class="bar-progress">--}}
+{{--                                        <div id="bar3" class="barfiller">--}}
+{{--                                            <div class="tipWrap">--}}
+{{--                                                <span class="tip"></span>--}}
+{{--                                            </div>--}}
+{{--                                            <span class="fill" data-percentage="50"></span>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                                <!-- / progress -->--}}
+{{--                                <div class="prices d-flex justify-content-between">--}}
+{{--                                    <p>Raised:<span> $20,000</span></p>--}}
+{{--                                    <p>Goal:<span> $35,000</span></p>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
         <!-- Our Cases End -->
         <!--? About Founder Start-->
         <section class="about-low-area section-padding2">
@@ -330,7 +364,7 @@
                             <p>At SUBEB, we have a policy of leaving no child behind and we are working assiduously through our various
                                 departments to advance this objective and also add value to the aspirations of Mr. Governor for the education sector.</p>
                         </div>
-                        <a href="/portfolio" class="btn">Portfolio</a>
+                        <a href="/" class="btn px-3 py-2">Portfolio</a>
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <!-- about-img -->
@@ -347,78 +381,6 @@
             </div>
         </section>
         <!-- About Founder End-->
-        <!-- Featured_job_start -->
-        <section class="featured-job-area section-padding30 section-bg2"
-                 data-background="assets/img/gallery/section_bg03.png">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-7 col-lg-9 col-md-10 col-sm-12">
-                        <!-- Section Tittle -->
-                        <div class="section-tittle text-center mb-80">
-                            <span>What we are boing</span>
-                            <h2>We arrange many social events for charity donations</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-9 col-md-12">
-                        <!-- single-job-content -->
-                        <div class="single-job-items mb-30">
-                            <div class="job-items">
-                                <div class="company-img">
-                                    <a href="#"><img src="assets/img/gallery/socialEvents1.png" alt=""></a>
-                                </div>
-                                <div class="job-tittle">
-                                    <a href="#"><h4>Donation is Hope</h4></a>
-                                    <ul>
-                                        <li><i class="far fa-clock"></i>8:30 - 9:30am</li>
-                                        <li><i class="fas fa-sort-amount-down"></i>18.01.2021</li>
-                                        <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-9 col-md-12">
-                        <!-- single-job-content -->
-                        <div class="single-job-items mb-30">
-                            <div class="job-items">
-                                <div class="company-img">
-                                    <a href="#"><img src="assets/img/gallery/socialEvents2.png" alt=""></a>
-                                </div>
-                                <div class="job-tittle">
-                                    <a href="#"><h4>A hand for Children</h4></a>
-                                    <ul>
-                                        <li><i class="far fa-clock"></i>8:30 - 9:30am</li>
-                                        <li><i class="fas fa-sort-amount-down"></i>18.01.2021</li>
-                                        <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-9 col-md-12">
-                        <!-- single-job-content -->
-                        <div class="single-job-items mb-30">
-                            <div class="job-items">
-                                <div class="company-img">
-                                    <a href="#"><img src="assets/img/gallery/socialEvents3.png" alt=""></a>
-                                </div>
-                                <div class="job-tittle">
-                                    <a href="#"><h4>Help for Children</h4></a>
-                                    <ul>
-                                        <li><i class="far fa-clock"></i>8:30 - 9:30am</li>
-                                        <li><i class="fas fa-sort-amount-down"></i>18.01.2021</li>
-                                        <li><i class="fas fa-map-marker-alt"></i>Athens, Greece</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Featured_job_end -->
         <!--? Blog Area Start -->
         <section class="home-blog-area section-padding30">
             <div class="container">
@@ -427,49 +389,41 @@
                     <div class="col-xl-5 col-lg-6 col-md-9 col-sm-10">
                         <div class="section-tittle text-center mb-90">
                             <span>Our recent blog</span>
-                            <h2>Latest News from our recent blog</h2>
+                            <h2>Latest Post</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                        <div class="home-blog-single mb-30">
-                            <div class="blog-img-cap">
-                                <div class="blog-img">
-                                    <img src="assets/img/gallery/home-blog1.png" alt="">
-                                    <!-- Blog date -->
-                                    <div class="blog-date text-center">
-                                        <span>24</span>
-                                        <p>Now</p>
+                    @foreach($posts->shuffle()->take(2) as $post)
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="home-blog-single mb-30">
+                                <div class="blog-img-cap">
+                                    <div class="blog-img">
+                                        <img class="img-fluid" src="{{ asset('storage/' . $post->thumbnail) }}" alt="">
+                                        <!-- Blog date -->
+                                        <div class="blog-date text-center">
+                                            <span>{{$post->created_at->format('d')}}</span>
+                                            <p>{{$post->created_at->format('F')}}</p>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="blog-cap">
-                                    <p>Creative derector</p>
-                                    <h3><a href="blog_details.html">Footprints in Time is perfect House in Kurashiki</a>
-                                    </h3>
+                                    <div class="blog_details">
+                                        <a class="d-inline-block" href="/blog/{{$post->slug}}">
+                                            <h2 class="blog-head" style="color: #2d2d2d;">{{$post->title}} </h2>
+                                        </a>
+                                        <p>{{Str::limit($post->body_one, 150)}}</p>
+                                        @if($post->external_url !== '' || null)
+                                            <ul class="blog-info-link">
+                                                <li>
+                                                    <a href="{{ $post->external_url }}" target="_blank"><i
+                                                            class="fa fa-link"> </i> <i>As seen on:
+                                                            <strong>{{$post->publish_on}}</strong></i></a></li>
+                                            </ul>
+                                        @endif
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                        <div class="home-blog-single mb-30">
-                            <div class="blog-img-cap">
-                                <div class="blog-img">
-                                    <img src="assets/img/gallery/home-blog2.png" alt="">
-                                    <!-- Blog date -->
-                                    <div class="blog-date text-center">
-                                        <span>24</span>
-                                        <p>Now</p>
-                                    </div>
-                                </div>
-                                <div class="blog-cap">
-                                    <p>Creative derector</p>
-                                    <h3><a href="blog_details.html">Footprints in Time is perfect House in Kurashiki</a>
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    @endforeach
                 </div>
             </div>
         </section>

@@ -253,7 +253,7 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: inherit;
+  font-family:'Smooch Sans', sans-serif !important;;
   font-size: inherit;
   line-height: inherit; }
 
@@ -261,7 +261,7 @@ button,
 input {
   overflow: visible; }
 a  {
-    font-size: 13px!important;
+    font-size: 15px!important;
 }
 button,
 select {

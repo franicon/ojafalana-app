@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="zxx">
+<html class="no-js" lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -8,55 +8,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" href="{{asset('Oj.svg')}}" type="image/x-icon">
-
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Smooch+Sans:wght@100;500;600;700&display=swap');
+    </style>
     <!-- CSS here -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/slicknav.css">
-    <link rel="stylesheet" href="assets/css/flaticon.css">
-    <link rel="stylesheet" href="assets/css/progressbar_barfiller.css">
-    <link rel="stylesheet" href="assets/css/gijgo.css">
-    <link rel="stylesheet" href="assets/css/aos.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/animated-headline.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/css/themify-icons.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <link rel="stylesheet" href="assets/css/first-style.css">
-    <link rel="stylesheet" href="assets/css/second-style.css">
+    <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/slicknav.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/flaticon.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/progressbar_barfiller.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/gijgo.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/aos.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/animate.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/animated-headline.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/magnific-popup.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/fontawesome-all.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/themify-icons.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/slick.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/nice-select.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/first-style.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/second-style.css')}}">
 
 
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="{{asset('css/animate.css')}}">
 
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/owl.theme.default.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
 
 
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.timepicker.css">
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/third-style.css">
+    <link rel="stylesheet" href="{{asset('css/bootstrap-datepicker.css')}}">
+    <link rel="stylesheet" href="{{asset('css/jquery.timepicker.css')}}">
+    <link rel="stylesheet" href="{{asset('css/flaticon.css')}}">
+    <link rel="stylesheet" href="{{asset('css/flaticon.css')}}">
+    <link rel="stylesheet" href="{{asset('css/third-style.css')}}">
 
 {{--    <link href="css/bootstrap.css" rel="stylesheet">--}}
-    <link href="css/fontawesome-all.css" rel="stylesheet">
-    <link href="css/portfolio.css" rel="stylesheet">
+    <link href="{{asset('css/fontawesome-all.css')}}" rel="stylesheet">
+    <link href="{{asset('css/portfolio.css')}}" rel="stylesheet">
 </head>
 <body>
 <!-- ? Preloader Start -->
-<div id="preloader-active">
-    <div class="preloader d-flex align-items-center justify-content-center">
-        <div class="preloader-inner position-relative">
-            <div class="preloader-circle"></div>
-            <div class="preloader-img pere-text">
-                <img src="assets/img/logo/loader-logo.svg" alt="">
-            </div>
-        </div>
-    </div>
-</div>
+{{--<div id="preloader-active">--}}
+{{--    <div class="preloader d-flex align-items-center justify-content-center">--}}
+{{--        <div class="preloader-inner position-relative">--}}
+{{--            <div class="preloader-circle"></div>--}}
+{{--            <div class="preloader-img pere-text">--}}
+{{--                <img src="assets/img/logo/loader-logo.svg" alt="">--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</div>--}}
 <!-- Preloader Start -->
 <header>
     <!-- Header Start -->
@@ -89,7 +91,7 @@
                         <!-- Logo -->
                         <div class="col-xl-1 col-lg-2 col-1">
                             <div class="logo">
-                                <a href="/"><img src="assets/img/logo/OJ Falana.svg" width="" alt="" class="logo"></a>
+                                <a href="/"><img src="{{asset('assets/img/logo/OJ Falana.svg')}}" width="" alt="" class="logo"></a>
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10">
@@ -123,7 +125,7 @@
 <!-- header end -->
 @yield('content')
 <footer>
-    <div class="footer-wrapper section-bg2" data-background="assets/img/gallery/footer_bg.png">
+    <div class="footer-wrapper section-bg2" data-background="{{asset('assets/img/gallery/footer_bg.png')}}">
         <!-- Footer Top-->
         <div class="footer-area footer-padding">
             <div class="container">
@@ -133,7 +135,7 @@
                             <div class="single-footer-caption mb-30">
                                 <div class="footer-tittle">
                                     <div class="footer-logo mb-20">
-                                        <a href="/"><img src="assets/img/logo/OJ Falana.svg" alt=""></a>
+                                        <a href="/"><img src="{{asset('assets/img/logo/OJ Falana.svg')}}" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -184,7 +186,7 @@
                                                    onblur="this.placeholder = ' Email Address '">
                                             <div class="form-icon">
                                                 <button type="submit" name="submit" id="newsletter-submit"
-                                                        class="email_icon newsletter-submit button-contactForm"><img src="assets/img/gallery/form.png" alt=""></button>
+                                                        class="email_icon newsletter-submit button-contactForm"><img src="{{asset('assets/img/gallery/form.png')}}" alt=""></button>
                                             </div>
                                             <div class="mt-10 info"></div>
                                         </form>
@@ -227,71 +229,69 @@
     <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
 </div>
 {{--<script src="./assets/js/aos.js"></script>--}}
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery-migrate-3.0.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/jquery.waypoints.min.js"></script>
-<script src="js/jquery.stellar.min.js"></script>
-<script src="js/jquery.animateNumber.min.js"></script>
-<script src="js/bootstrap-datepicker.js"></script>
-<script src="js/jquery.timepicker.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/scrollax.min.js"></script>
+<script src="{{asset('js/jquery.min.js')}}"></script>
+<script src="{{asset('js/jquery-migrate-3.0.1.min.js')}}"></script>
+<script src="{{asset('js/popper.min.js')}}"></script>
+<script src="{{asset('js/bootstrap.min.js')}}"></script>
+<script src="{{asset('js/jquery.easing.1.3.js')}}"></script>
+<script src="{{asset('js/jquery.waypoints.min.js')}}"></script>
+<script src="{{asset('js/jquery.stellar.min.js')}}"></script>
+<script src="{{asset('js/jquery.animateNumber.min.js')}}"></script>
+<script src="{{asset('js/bootstrap-datepicker.js')}}"></script>
+<script src="{{asset('js/jquery.timepicker.min.js')}}"></script>
+<script src="{{asset('js/owl.carousel.min.js')}}"></script>
+<script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
+<script src="{{asset('js/scrollax.min.js')}}"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-<script src="js/google-map.js"></script>
-<script src="js/main.js"></script>
+<script src="{{asset('js/google-map.js')}}"></script>
+<script src="{{asset('js/main.js')}}"></script>
 <!-- JS here -->
-<script src="js/aos.js"></script>
-<script src="js/main-2.js"></script>
+<script src="{{asset('js/aos.js')}}"></script>
+<script src="{{asset('js/main-2.js')}}"></script>
 
-<script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="{{asset('./assets/js/vendor/modernizr-3.5.0.min.js')}}"></script>
 <!-- Jquery, Popper, Bootstrap -->
-<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
-<script src="./assets/js/popper.min.js"></script>
-<script src="./assets/js/bootstrap.min.js"></script>
+<script src="{{asset('./assets/js/vendor/jquery-1.12.4.min.js')}}"></script>
+<script src="{{asset('./assets/js/popper.min.js')}}"></script>
+<script src="{{asset('./assets/js/bootstrap.min.js')}}"></script>
 <!-- Jquery Mobile Menu -->
-<script src="./assets/js/jquery.slicknav.min.js"></script>
+<script src="{{asset('./assets/js/jquery.slicknav.min.js')}}"></script>
 
 <!-- Jquery Slick , Owl-Carousel Plugins -->
-<script src="./assets/js/owl.carousel.min.js"></script>
-<script src="./assets/js/slick.min.js"></script>
+<script src="{{asset('./assets/js/owl.carousel.min.js')}}"></script>
+<script src="{{asset('./assets/js/slick.min.js')}}"></script>
 <!-- One Page, Animated-HeadLin -->
-<script src="./assets/js/wow.min.js"></script>
-<script src="./assets/js/animated.headline.js"></script>
-<script src="./assets/js/jquery.magnific-popup.js"></script>
+<script src="{{asset('./assets/js/wow.min.js')}}"></script>
+<script src="{{asset('./assets/js/animated.headline.js')}}"></script>
+<script src="{{asset('./assets/js/jquery.magnific-popup.js')}}"></script>
 
 <!-- Date Picker -->
-<script src="./assets/js/gijgo.min.js"></script>
+<script src="{{asset('./assets/js/gijgo.min.js')}}"></script>
 <!-- Nice-select, sticky -->
-<script src="./assets/js/jquery.nice-select.min.js"></script>
-<script src="./assets/js/jquery.sticky.js"></script>
+<script src="{{asset('./assets/js/jquery.nice-select.min.js')}}"></script>
+<script src="{{asset('./assets/js/jquery.sticky.js')}}"></script>
 <!-- Progress -->
-<script src="./assets/js/jquery.barfiller.js"></script>
+<script src="{{asset('./assets/js/jquery.barfiller.js')}}"></script>
 
 <!-- counter , waypoint,Hover Direction -->
-<script src="./assets/js/jquery.counterup.min.js"></script>
-<script src="./assets/js/waypoints.min.js"></script>
-<script src="./assets/js/jquery.countdown.min.js"></script>
-<script src="./assets/js/hover-direction-snake.min.js"></script>
+<script src="{{asset('./assets/js/jquery.counterup.min.js')}}"></script>
+<script src="{{asset('./assets/js/waypoints.min.js')}}"></script>
+<script src="{{asset('./assets/js/jquery.countdown.min.js')}}"></script>
+<script src="{{asset('./assets/js/hover-direction-snake.min.js')}}"></script>
 
 <!-- contact js -->
-<script src="./assets/js/contact.js"></script>
-<script src="./assets/js/jquery.form.js"></script>
-<script src="./assets/js/jquery.validate.min.js"></script>
-<script src="./assets/js/mail-script.js"></script>
-<script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+<script src="{{asset('./assets/js/contact.js')}}"></script>
+<script src="{{asset('./assets/js/jquery.form.js')}}"></script>
+<script src="{{asset('./assets/js/jquery.validate.min.js')}}"></script>
+<script src="{{asset('./assets/js/mail-script.js')}}"></script>
+<script src="{{asset('./assets/js/jquery.ajaxchimp.min.js')}}"></script>
 
 <!-- Jquery Plugins, main Jquery -->
-<script src="./assets/js/plugins.js"></script>
-<script src="./assets/js/main.js"></script>
+<script src="{{asset('./assets/js/plugins.js')}}"></script>
+<script src="{{asset('./assets/js/main.js')}}"></script>
 
-<script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
-<script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-<script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-<script src="js/scripts.js"></script> <!-- Custom scripts -->
+<script src="{{asset('js/jquery.min.js')}}"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+<script src="{{asset('js/bootstrap.min.js')}}"></script> <!-- Bootstrap framework -->
 <!-- ===============================================-->
 <!--    JavaScripts-->
 <!-- ===============================================-->

@@ -29,7 +29,7 @@
                     </div>
                     <div class="col-md-6 pl-md-5 ftco-animate">
                         <p>
-                            <b> Mr. Owolabi Jamiu Falana</b> was appointed in August, 2022 by Governor Babajide
+                            <strong> Mr. Owolabi Jamiu Falana</strong> was appointed in August, 2022 by Governor Babajide
                             Sanwo-Olu to serve as Board Member in charge of Basic Education Quality
                             Assurance, Lagos State Universal Basic Education Board.
                         </p>
@@ -66,9 +66,9 @@
                                         </div>
                                     </li>
                                     <li>
-                                        <div href="/assets/img/impacts/17.jpg"
+                                        <div href="/assets/img/impacts/4.jpg"
                                              class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-                                             style="background-image: url('assets/img/impacts/17.jpg');">
+                                             style="background-image: url('assets/img/impacts/4.jpg');">
                                         </div>
                                     </li>
                                     <li>
@@ -78,9 +78,9 @@
                                         </div>
                                     </li>
                                     <li>
-                                        <div href="/assets/img/impacts/18.jpg"
+                                        <div href="/assets/img/impacts/1.jpg"
                                              class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-                                             style="background-image: url('assets/img/impacts/18.jpg');">
+                                             style="background-image: url('assets/img/impacts/1.jpg');">
                                         </div>
                                     </li>
                                     <li>
@@ -105,21 +105,21 @@
         <!-- gallary impacts -->
         <section class="ftco-gallery mb-50">
             <div class="d-md-flex d-none">
-                <a href="/assets/img/impacts/15.jpg"
+                <a href="/assets/img/impacts/3.jpg"
                    class="gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-                   style="background-image: url('assets/img/impacts/15.jpg');">
+                   style="background-image: url('assets/img/impacts/3.jpg');">
                 </a>
-                <a href="assets/img/impacts/17.jpg"
+                <a href="assets/img/impacts/15.jpg"
                    class=" d-md-flex d-none gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-                   style="background-image: url('assets/img/impacts/17.jpg');">
+                   style="background-image: url('assets/img/impacts/15.jpg');">
                 </a>
                 <a href="assets/img/impacts/5.jpg"
                    class=" d-md-flex d-none gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
                    style="background-image: url('assets/img/impacts/5.jpg');">
                 </a>
-                <a href="assets/img/impacts/18.jpg"
+                <a href="assets/img/impacts/14.jpg"
                    class=" d-md-flex d-none gallery image-popup d-flex justify-content-center align-items-center img ftco-animate"
-                   style="background-image: url('assets/img/impacts/18.jpg');">
+                   style="background-image: url('assets/img/impacts/14.jpg');">
                 </a>
             </div>
             <div class="d-md-flex d-none">
