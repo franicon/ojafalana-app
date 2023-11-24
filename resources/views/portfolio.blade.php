@@ -52,17 +52,14 @@
                                 </p>
                             </div>
                             <div class="col-lg-6 mb-10  ftco-animate">
-                                <video src="https://res.cloudinary.com/dzcnkcjzx/video/upload/v1700647864/New-City-Primary-School_u0nil4.mp4" autoplay controls
+                                <video src="https://res.cloudinary.com/dzcnkcjzx/video/upload/v1700866413/mcy3tyqkr2dynk2rxhgb.mp4"  controls
                                        width="100%" height="290"></video>
                             </div>
                         </div>
                         <p class="px-lg-5 px-2  ftco-animate">
                             In 2017, he founded Ohjay Group, now a prominent name in construction and project planning
                             management. He is an alumnus of FATE Foundation Entrepreneurship Program AEP60, and a full
-                            member of the
-                            Nigerian Institute of International Affairs - Nigeria's foremost think-tank on foreign
-                            affairs. He is an alumnus of FATE Foundation Entrepreneurship Program AEP60, and a full member of the
-                            Nigerian Institute of International Affairs - Nigeria's foremost think-tank on foreign
+                            member of the Nigerian Institute of International Affairs - Nigeria's foremost think-tank on foreign
                             affairs.
                         </p>
 
@@ -110,8 +107,7 @@
                             Social Studies and pursued his secondary education at Ansar-Ud-Deen College, Isolo,
                             Lagos. With a focus on Economics, he traveled on 29th September 2010 to commence his
                             Bachelor’s Degree at
-                            Kharkiv National University of Radio Electronics, Ukraine. As a student, his mates admired
-                            Falana because of
+                            Kharkiv National University of Radio Electronics, Ukraine. As a student, his colleagues admired him because of
                             his impeccable intelligence and unmatched excellent virtues, he was the Class Governor
                             (староста) of his
                             cosmopolitan ECO-10-1 class and he was always consulted on various issues by the school
@@ -164,10 +160,7 @@
                         </p>
 
                         <p class="px-lg-5 px-2">
-                            In 2016, he joined Pentagon Real Estates Investment Limited as Sales Manager where he
-                            developed strategies for retention
-                            of existing clients and effectively introduced new housing products within target areas. In
-                            2017, he founded Ohjay Group,
+                           In 2017, he founded Ohjay Group,
                             now a prominent name in the construction and project planning management space.
                         </p>
                         <div class="col-lg-12 col-md-10 ftco-animate">

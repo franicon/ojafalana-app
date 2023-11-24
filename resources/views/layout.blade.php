@@ -7,7 +7,8 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" href="{{asset('Oj.svg')}}" type="image/x-icon">
+    <link rel="icon" href="../../OJ.svg" type="image/x-icon">
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Smooch+Sans:wght@100;500;600;700&display=swap');
     </style>
@@ -49,16 +50,16 @@
 </head>
 <body>
 <!-- ? Preloader Start -->
-{{--<div id="preloader-active">--}}
-{{--    <div class="preloader d-flex align-items-center justify-content-center">--}}
-{{--        <div class="preloader-inner position-relative">--}}
-{{--            <div class="preloader-circle"></div>--}}
-{{--            <div class="preloader-img pere-text">--}}
-{{--                <img src="assets/img/logo/loader-logo.svg" alt="">--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
-{{--</div>--}}
+<div id="preloader-active">
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+            <div class="preloader-circle"></div>
+            <div class="preloader-img pere-text">
+                <img src="assets/img/logo/loader-logo.svg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Preloader Start -->
 <header>
     <!-- Header Start -->
@@ -172,25 +173,14 @@
                     <div class="col-xl-3 col-lg-3 col-md-4 col-sm-5">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
-                                <h4>Newsletter</h4>
-                                <div class="footer-pera footer-pera2">
-                                    <p>Join our monthly news letter</p>
-                                </div>
+                                <h4>Social media</h4>
                                 <!-- Form -->
-                                <div class="footer-form" >
-                                    <div id="mc_embed_signup">
-                                        <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                                              method="get" class="subscribe_form relative mail_part">
-                                            <input type="email" name="email" id="newsletter-form-email" placeholder="Email Address"
-                                                   class="placeholder hide-on-focus" onfocus="this.placeholder = ''"
-                                                   onblur="this.placeholder = ' Email Address '">
-                                            <div class="form-icon">
-                                                <button type="submit" name="submit" id="newsletter-submit"
-                                                        class="email_icon newsletter-submit button-contactForm"><img src="{{asset('assets/img/gallery/form.png')}}" alt=""></button>
-                                            </div>
-                                            <div class="mt-10 info"></div>
-                                        </form>
-                                    </div>
+                                <div class="footer-form mt-0" >
+                                        <div class="d-flex">
+                                            <div class="mx-10 mr-20"><a href="https://twitter.com/Ojfalana/" target="_blank"><i class="fab fa-twitter"></i></a></div>
+                                            <div class="mx-10 mr-20"><a  href="https://web.facebook.com/owolabi.falana" target="_blank"><i class="fab fa-facebook-f"></i></a></div>
+                                            <div><a href="https://www.linkedin.com/in/owolabi-falana-mniia-18724147/" target="_blank"><i class="fab fa-linkedin-in"></i></a></div>
+                                        </div>
                                 </div>
                             </div>
                         </div>
@@ -208,13 +198,6 @@
                                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                                     Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | ojfalana
                                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-3">
-                            <div class="footer-social f-right">
-                                <a href="https://twitter.com/Ojfalana/" target="_blank"><i class="fab fa-twitter"></i></a>
-                                <a  href="https://web.facebook.com/owolabi.falana" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                <a href="https://www.linkedin.com/in/owolabi-falana-mniia-18724147/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>

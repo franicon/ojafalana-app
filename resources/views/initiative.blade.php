@@ -190,12 +190,12 @@
                         <div class="about-caption mb-50">
                             <!-- Section Tittle -->
                             <div class="section-tittle mb-35">
-                                <span>About our foundetion</span>
+                                <span>About our foundation</span>
                                 <h2>We Are In A Mission To Help Helpless</h2>
                             </div>
                             <p>We are Nigeria’s foremost development initiative borne out of a passion to
                                 build aspiring and emerging Nigerian leaders, entrepreneurs, innovators,
-                                and educationist who will be global changemakers.
+                                and educationist who will be global change makers.
                             </p>
                             <p>
                                 We were founded in 2022 by Falana, Owolabi Jamiu, to harness the potential of young Nigerians through capacity building and collaborative effort.
@@ -354,7 +354,7 @@
                         <div class="about-caption mb-50">
                             <!-- Section Tittle -->
                             <div class="section-tittle mb-35">
-                                <span>About founder</span>
+                                <span>About The Founder</span>
                                 <h2>Owolabi J. Falana</h2>
                             </div>
                             <p>Owolabi Falana is a Board member at the Lagos State Universal Basic Education Board (SUBEB).
