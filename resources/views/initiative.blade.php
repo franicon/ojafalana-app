@@ -388,8 +388,8 @@
                 <div class="row justify-content-center">
                     <div class="col-xl-5 col-lg-6 col-md-9 col-sm-10">
                         <div class="section-tittle text-center mb-90">
-                            <span>Our recent blog</span>
-                            <h2>Latest Post</h2>
+                            <span>Our Press Releases</span>
+                            <h2>Latest Articles</h2>
                         </div>
                     </div>
                 </div>

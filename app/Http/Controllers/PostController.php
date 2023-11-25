@@ -11,10 +11,9 @@ class PostController extends Controller
 {
     public function index()
     {
-        $posts = Post::latest();
 
         return view('blog', [
-            'posts' => $posts->get()
+            'posts' => Post::latest()->paginate(5)
         ]);
     }
 
@@ -40,9 +39,7 @@ class PostController extends Controller
             'title' => 'required',
             'thumbnail' => 'required|image',
             'body_one' => 'required',
-            'body_two' => 'sometimes',
-            'body_three' => 'sometimes',
-            'body_four' => 'sometimes',
+            'body_two' => 'required',
             'publish_on' => 'sometimes',
             'external_url' => 'sometimes'
 
@@ -63,6 +60,6 @@ class PostController extends Controller
 
         Post::create($attributes);
 
-        return redirect('/blog');
+        return redirect('/press-releases');
     }
 }

@@ -105,7 +105,7 @@
 {{--                                         3   <li><a href="/about">Profile</a></li>--}}
                                             <li><a href="/impacts">impacts</a></li>
                                             <li><a href="/initiatives">OJ Falana Initiatives </a></li>
-                                            <li><a href="/blog">Blog</a></li>
+                                            <li><a href="/press-releases">Press Releases</a></li>
                                             <li><a href="/contact">Contact</a></li>
                                         </ul>
                                     </nav>
@@ -164,7 +164,7 @@
                                 <ul>
                                     <li><a href="/impacts">Impacts</a></li>
                                     <li><a href="/initiatives">OJ Falana Initiatives</a></li>
-                                    <li><a href="/blog">Blog</a></li>
+                                    <li><a href="/press-releases">Press Releases</a></li>
                                     <li><a href="/contact">Contact Us</a></li>
                                 </ul>
                             </div>

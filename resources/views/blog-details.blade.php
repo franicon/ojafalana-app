@@ -35,24 +35,13 @@
                                             <strong>{{$post->publish_on}}</strong></a></li>
                                     <li><i class="fa fa-clock"></i> {{$post->created_at->format('d F Y')}}</li>
                                 </ul>
-                                <p class="excert">
-                                    {{$post->body_one}}
-                                </p>
-                                <p>
-                                    {{$post->body_two}}
-                                </p>
-                                <p>
-                                    {{$post->body_three}}
-                                </p>
-                                <p>
-                                    {{$post->body_four}}
-                                </p>
+                                {!! Purifier::clean($post->body_two) !!}
                             </div>
                         </div>
                         <div class="navigation-top">
                             <div class="d-sm-flex justify-content-between text-center">
 
-                                <a class="like-info" href="/blog"><span class="align-middle text-primary"><i
+                                <a class="like-info" href="/press-releases"><span class="align-middle text-primary"><i
                                             class="fa fa-arrow-alt-circle-left"></i>Back</span></a>
                             </div>
                         </div>

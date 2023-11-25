@@ -158,20 +158,18 @@
                             demonstrating his
                             strategic insight and managerial skills.
                         </p>
-
-                        <p class="px-lg-5 px-2">
-                           In 2017, he founded Ohjay Group,
-                            now a prominent name in the construction and project planning management space.
-                        </p>
                         <div class="col-lg-12 col-md-10 ftco-animate">
                             <div class="col-lg-12 col-md-12 ftco-animate text-center">
                                 <!-- about-img -->
                                 <div>
-                                    <img class="img-fluid" src="assets/img/profile/p-5.jpg" alt="profile">
+                                    <img class="img-fluid" src="assets/img/profile/p-13.jpg" alt="profile">
                                 </div>
                             </div>
                         </div>
+
                         <p class="pt-30 px-lg-5 px-2">
+                            In 2017, he founded Ohjay Group,
+                            now a prominent name in the construction and project planning management space. <br><br>
                             He was appointed in August 2022 by Governor Babajide Sanwo-Olu to serve as a Board Member in
                             charge of Basic Education
                             Quality Assurance, Lagos State Universal Basic Education Board. He is an alumnus of FATE,
@@ -183,7 +181,7 @@
                             <div class="col-lg-12 col-md-12 ftco-animate text-center">
                                 <!-- about-img -->
                                 <div>
-                                    <img class="img-fluid" src="assets/img/profile/p-13.jpg" alt="profile">
+                                    <img class="img-fluid" src="assets/img/profile/p-5.jpg" alt="profile">
                                 </div>
                             </div>
                         </div>
@@ -326,7 +324,7 @@
             <div class="row justify-content-center">
                 <div class="col-xl-5 col-lg-6 col-md-9 col-sm-10">
                     <div class="section-tittle text-center mb-90">
-                        <h2>Latest Post</h2>
+                        <h2>Latest Press Releases</h2>
                     </div>
                 </div>
             </div>
@@ -344,7 +342,7 @@
                                     </div>
                                 </div>
                                 <div class="blog_details">
-                                    <a class="d-inline-block" href="/blog/{{$post->slug}}">
+                                    <a class="d-inline-block" href="/press-releases/{{$post->slug}}">
                                         <h2 class="blog-head" style="color: #2d2d2d;">{{$post->title}} </h2>
                                     </a>
                                     <p>{{Str::limit($post->body_one, 150)}}</p>

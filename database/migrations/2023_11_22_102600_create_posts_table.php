@@ -17,9 +17,7 @@ return new class extends Migration  {
             $table->string('slug');
             $table->text('body_one');
             $table->text('thumbnail');
-            $table->text('body_two')->nullable();
-            $table->text('body_three')->nullable();
-            $table->text('body_four')->nullable();
+            $table->text('body_two');
             $table->string('publish_on')->nullable();
             $table->string('external_url')->nullable();
             $table->timestamps();

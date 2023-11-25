@@ -74,24 +74,11 @@
                                                 </div>
                                             </div>
                                             <div class="form-group row">
-                                                <label class="col-sm-2 col-form-label">Second Paragraph</label>
+                                                <label class="col-sm-2 col-form-label">Other Body</label>
                                                 <div class="col-sm-10">
-                                                    <textarea rows="5" cols="5" class="form-control" for="body_two" name="body_two" placeholder="post body"></textarea>
+                                                    <textarea rows="5" cols="5" id="editor" class="form-control" for="body_two" name="body_two" placeholder="post body"></textarea>
                                                 </div>
                                             </div>
-                                            <div class="form-group row">
-                                                <label class="col-sm-2 col-form-label">Third Paragraph</label>
-                                                <div class="col-sm-10">
-                                                    <textarea rows="5" cols="5" class="form-control" for="body_three" name="body_three" placeholder="post body"></textarea>
-                                                </div>
-                                            </div>
-                                            <div class="form-group row">
-                                                <label class="col-sm-2 col-form-label">Fourth Paragraph</label>
-                                                <div class="col-sm-10">
-                                                    <textarea rows="5" cols="5" class="form-control" for="body_four" name="body_four" placeholder="post body"></textarea>
-                                                </div>
-                                            </div>
-
                                             <button class="btn btn-primary " type="submit"> Publish</button>
                                         </form>
                                     </div>

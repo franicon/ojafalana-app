@@ -9,7 +9,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="hero-cap hero-cap2 pt-70 text-center">
-                                <h2>Blog</h2>
+                                <h2>Press Releases</h2>
                             </div>
                         </div>
                     </div>
@@ -33,10 +33,12 @@
                                         </div>
                                     </div>
                                     <div class="blog_details">
-                                        <a class="d-inline-block" href="/blog/{{$post->slug}}">
+                                        <a class="d-inline-block" href="/press-releases/{{$post->slug}}">
                                             <h2 class="blog-head" style="color: #2d2d2d;">{{$post->title}}</h2>
                                         </a>
-                                        <p>{{Str::limit($post->body_one, 150)}}</p>
+                                        <div>
+                                            {{Str::limit($post->body_one, 150)}}
+                                        </div>
                                         @if($post->external_url !== '' || null)
                                             <ul class="blog-info-link">
                                                 <li>
@@ -48,26 +50,13 @@
                                     </div>
                                 </article>
                             @endforeach
-{{--                            <nav class="blog-pagination justify-content-center d-flex">--}}
-{{--                                <ul class="pagination">--}}
-{{--                                    <li class="page-item">--}}
-{{--                                        <a href="#" class="page-link" aria-label="Previous">--}}
-{{--                                            <i class="ti-angle-left"></i>--}}
-{{--                                        </a>--}}
-{{--                                    </li>--}}
-{{--                                    <li class="page-item">--}}
-{{--                                        <a href="#" class="page-link">1</a>--}}
-{{--                                    </li>--}}
-{{--                                    <li class="page-item active">--}}
-{{--                                        <a href="#" class="page-link">2</a>--}}
-{{--                                    </li>--}}
-{{--                                    <li class="page-item">--}}
-{{--                                        <a href="#" class="page-link" aria-label="Next">--}}
-{{--                                            <i class="ti-angle-right"></i>--}}
-{{--                                        </a>--}}
-{{--                                    </li>--}}
-{{--                                </ul>--}}
-{{--                            </nav>--}}
+                            <nav class="blog-pagination justify-content-center d-flex">
+                                <ul class="pagination">
+                                    <li class="page-item">
+                                       {{$posts->links()}}
+                                    </li>
+                                </ul>
+                            </nav>
                         </div>
                     </div>
                     <div class="col-lg-4">

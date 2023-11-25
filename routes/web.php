@@ -12,10 +12,6 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/profile', function () {
-    return view('profile');
-});
-
 Route::get('/impacts', function () {
     return view('impacts');
 });
@@ -31,8 +27,8 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/blog', [PostController::class, 'index']);
-Route::get('/blog/{post:slug}', [PostController::class, 'show']);
+Route::get('/press-releases', [PostController::class, 'index']);
+Route::get('/press-releases/{post:slug}', [PostController::class, 'show']);
 
 // Admin
 

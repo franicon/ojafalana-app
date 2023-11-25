@@ -219,6 +219,15 @@
     </div>
 </div>
 
+<script src="https://cdn.ckeditor.com/ckeditor5/23.0.0/classic/ckeditor.js"></script>
+<script>
+    ClassicEditor
+        .create( document.querySelector( '#editor' ) )
+        .catch( error => {
+            console.error( error );
+        } );
+</script>
+
 <!-- Required Jquery -->
 <script type="text/javascript" src="../../assets-admin/js/jquery/jquery.min.js "></script>
 <script type="text/javascript" src="../../assets-admin/js/jquery-ui/jquery-ui.min.js "></script>
@@ -238,5 +247,4 @@
 
 <script type="text/javascript" src="../../assets-admin/js/script.js "></script>
 </body>
-
 </html>
