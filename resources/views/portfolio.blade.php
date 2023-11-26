@@ -81,16 +81,11 @@
                         </div>
                         <p class="px-lg-5 px-2">
                             Fondly referred to as OJ, Owolabi was born into the Falana family in Mushin, Lagos.
-                            His mother is Taiwo Apena, a member of the Apena clan, Epe, Lagos; she is a civil servant
-                            who
-                            works with the Lagos State Local Governments (Mushin). His father is Olajide Falana, a
-                            retired
-                            civil servant and celebrated politician from the Falana clan, Mushin, Lagos. OJ, from
-                            childhood,
-                            has possessed a passion for community and social change. Growing up in Mushin, he realized
-                            the
-                            challenges faced by his community, which triggered his determination to make a clear
-                            difference.
+                            His mother is TA Falana (Nee Apena), a member of Apena clan, Epe, Lagos.
+                            His father is Olajide Falana, a retired civil servant and celebrated politician from the
+                            Falana clan, Mushin, Lagos. OJ, from childhood, has possessed a passion for community and
+                            social change. Growing up in Mushin, he realized the challenges faced by his community,
+                            which triggered his determination to make a clear difference.
                         </p>
                         <div class="col-lg-12 col-md-10 ftco-animate ">
                             <div class="col-lg-12 col-md-12 ftco-animate text-center">
@@ -156,18 +151,7 @@
                             Properties Ltd.
                             and later contributed to Pentagon Real Estate Investment Limited as a Sales Manager,
                             demonstrating his
-                            strategic insight and managerial skills.
-                        </p>
-                        <div class="col-lg-12 col-md-10 ftco-animate">
-                            <div class="col-lg-12 col-md-12 ftco-animate text-center">
-                                <!-- about-img -->
-                                <div>
-                                    <img class="img-fluid" src="assets/img/profile/p-13.jpg" alt="profile">
-                                </div>
-                            </div>
-                        </div>
-
-                        <p class="pt-30 px-lg-5 px-2">
+                            strategic insight and managerial skills. <br><br>
                             In 2017, he founded Ohjay Group,
                             now a prominent name in the construction and project planning management space. <br><br>
                             He was appointed in August 2022 by Governor Babajide Sanwo-Olu to serve as a Board Member in
@@ -196,7 +180,7 @@
                         <p class="px-lg-5 px-2">
                             Falana entered the political arena in 2007 before pursuing his Bachelor’s degree in Ukraine, driven by
                             a dedication to social change that transcended grassroots initiatives. He served as the ACN party agent
-                            forward G1 in Mushin during Mr. Babatunde Fashola’s gubernatorial election in 2007.
+                            forward G1 in Mushin.
                         </p>
                         <div class="col-lg-12 col-md-10 ftco-animate">
                             <div class="col-lg-12 col-md-12 ftco-animate text-center">
@@ -222,6 +206,14 @@
                             Youths for the Tinubu/Shettima and Sanwoolu/Hamzat Independent Campaign Council.
                             His systematic approach and resourcefulness brought him recognition as a dynamic youth leader.
                         </p>
+                        <div class="col-lg-12 col-md-10 ftco-animate">
+                            <div class="col-lg-12 col-md-12 ftco-animate text-center">
+                                <!-- about-img -->
+                                <div>
+                                    <img class="img-fluid" src="assets/img/profile/p-13.jpg" alt="profile">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-12 col-md-10  ftco-animate">
@@ -237,7 +229,9 @@
                             generation of socio-political leaders who share his vision for a more inclusive and just society.
                             <br> <br>
                             He contributed to the growth of the nation through his pen. His first work was “Analysis of Labour Market in
-                            Nigeria” in 2014. And in 2016, he wrote “Strategic Leadership and infrastructural development in Lagos State”.
+                            Nigeria” in 2014. And in 2016, he wrote “Strategic Leadership and infrastructural development in Lagos State” in 2022.
+                            And And in 2023, he co-authored <strong><a class="text-primary text-underline" href="https://www.amazon.co.uk/BABAJIDE-SANWO-OLU-BABAGANA-ZULUM-Successfully/dp/B0BW345SKC" target="_blank">
+                                Two outstanding Governors Sanwoolu and Zulum.</a></strong>
                             Over the years, Falana’s contributions have earned numerous awards, including the Most Vibrant Student in Economics at
                             KNURE, Ukraine, in 2013 and the Most Outstanding Youth in Education at the 2022 Lagos Youth Awards.
                         </p>
