@@ -156,10 +156,7 @@
                             now a prominent name in the construction and project planning management space. <br><br>
                             He was appointed in August 2022 by Governor Babajide Sanwo-Olu to serve as a Board Member in
                             charge of Basic Education
-                            Quality Assurance, Lagos State Universal Basic Education Board. He is an alumnus of FATE,
-                            Foundation Entrepreneurs
-                            program, and a full member of the Nigerian Institute for International Affairs - Nigeria's
-                            foremost think-tank on foreign affairs.
+                            Quality Assurance, Lagos State Universal Basic Education Board.
                         </p>
                         <div class="col-lg-12 col-md-10 ftco-animate">
                             <div class="col-lg-12 col-md-12 ftco-animate text-center">
@@ -319,7 +316,7 @@
                 </div>
             </div>
         </div>
-        <div class="mt-5 text-center"><a class="btn p-4" href="/impacts">Explore More &rightarrow;</a></div>
+        <div class="mt-5 text-center"><a class="btn p-4" href="/impact">Explore More &rightarrow;</a></div>
     </section>
     <section class="home-blog-area section-padding30">
         <div class="container">

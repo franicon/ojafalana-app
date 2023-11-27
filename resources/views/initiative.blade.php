@@ -160,7 +160,7 @@
                                 <span class="flaticon-think"></span>
                             </div>
                             <div class="cat-cap">
-                                <h5><a href="services.html">Ouality Education</a></h5>
+                                <h5><a href="services.html">Quality Education</a></h5>
                                 <p>Eliminate gender disparity in education and substantially increase the number
                                     of youth and adults wo have relevant skills. </p>
                             </div>
@@ -191,7 +191,7 @@
                             <!-- Section Tittle -->
                             <div class="section-tittle mb-35">
                                 <span>About our foundation</span>
-                                <h2>We Are In A Mission To Help Helpless</h2>
+                                <h2>We Are On A Mission To Help The Helpless</h2>
                             </div>
                             <p>We are Nigeria’s foremost development initiative borne out of a passion to
                                 build aspiring and emerging Nigerian leaders, entrepreneurs, innovators,

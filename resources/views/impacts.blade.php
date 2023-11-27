@@ -58,8 +58,7 @@
                                     Government Education
                                     Authorities across Lagos State, delivering on-the-spot solutions to challenges and
                                     providing practicable recommendations for executive consideration. A rst by any
-                                    board
-                                    member.</p>
+                                    board member.</p>
                             </div>
                         </div>
                     </div>
@@ -69,9 +68,8 @@
                                 <p class="text-black">2. He led his team to successfully actualize the digitalization
                                     and transition program of EKO
                                     EXCEL to Basic Education Quality Assurance (BEQA) Department, to ensure the
-                                    sustainability of the Lagos State Government's signicant investment in the basic
-                                    education
-                                    sector..</p>
+                                    sustainability of the Lagos State Government's significant investment in the basic
+                                    education sector.</p>
                             </div>
                         </div>
                     </div>
@@ -88,20 +86,16 @@
                         <div class="block-18 color-2 align-items-stretch">
                             <div class="text">
                                 <p class="text-black">4. He reorganized and revitalized the transition from EKO EXCEL
-                                    Team to BEQA
-                                    Department, resulting in enhanced monitoring of daily school activities and better
-                                    learning
-                                    outcomes.</p>
+                                    Team to BEQA Department, resulting in enhanced monitoring of daily school activities and better
+                                    learning outcomes.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
                         <div class="block-18 color-3 align-items-stretch">
                             <div class="text">
-                                <p class="text-black">5. He successfully trained over 200 ofcers on critical areas like
-                                    Record Keeping, School
-                                    Management, and Effective Monitoring, contributing to overall educational
-                                    improvements.</p>
+                                <p class="text-black">5. He successfully trained over 200 officers on critical areas like
+                                    Record Keeping, School Management, and Effective Monitoring, contributing to overall educational improvements.</p>
                             </div>
                         </div>
                     </div>
