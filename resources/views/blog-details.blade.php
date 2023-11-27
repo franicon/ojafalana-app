@@ -33,7 +33,7 @@
                                     <li class="like-info"><a href="{{$post->external_url}}}" target="_blank"><span class="align-middle"><i
                                                     class="fa fa-link"></i></span> seen on:
                                             <strong>{{$post->publish_on}}</strong></a></li>
-                                    <li><i class="fa fa-clock"></i> {{$post->created_at->format('d F Y')}}</li>
+{{--                                    <li><i class="fa fa-clock"></i> {{$post->created_at->format('d F Y')}}</li>--}}
                                 </ul>
                                 {!! Purifier::clean($post->body_two) !!}
                             </div>
@@ -58,7 +58,7 @@
                                             <a href="/blog/{{$post->slug}}">
                                                 <h3 style="color: #2d2d2d;">{{$post->title}}</h3>
                                             </a>
-                                            <p>{{$post->created_at->format('d F Y')}}</p>
+{{--                                            <p>{{$post->created_at->format('d F Y')}}</p>--}}
                                         </div>
                                     </div>
                                 @endforeach

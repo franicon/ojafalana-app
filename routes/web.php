@@ -1,8 +1,11 @@
 <?php
 
+use App\Http\Controllers\SessionController;
 use App\Models\Post;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\RegisterController;
+use App\Http\Controllers\AdminPostController;
 
 
 Route::get('/', function () {
@@ -12,7 +15,7 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/impacts', function () {
+Route::get('/impact', function () {
     return view('impacts');
 });
 
@@ -36,5 +39,17 @@ Route::get('/main/dashboard', function () {
     return view('admin/index');
 });
 
-Route::get('/main/blog/create', [PostController::class, 'create']);
-Route::post('admin/posts', [PostController::class, 'store']);
+Route::get('main/posts', [AdminPostController::class, 'index'])->middleware('admin');
+Route::get('main/posts/{post:id}/edit', [AdminPostController::class, 'edit'])->middleware('admin');
+Route::get('main/post/create', [AdminPostController::class, 'create'])->middleware('admin');
+Route::post('admin/posts', [AdminPostController::class, 'store'])->middleware('admin');
+Route::patch('admin/posts/{post:id}/edit', [AdminPostController::class, 'update'])->middleware('admin');
+Route::delete('admin/posts/{post:id}', [AdminPostController::class, 'destroy'])->middleware('admin');
+
+
+Route::get('register', [RegisterController::class, 'create'])->middleware('guest');
+Route::post('register', [RegisterController::class, 'store'])->middleware('guest');
+
+Route::get('login', [SessionController::class, 'create']);
+Route::post('logout', [SessionController::class, 'destroy'])->middleware('auth');
+Route::post('auth', [SessionController::class, 'store']);

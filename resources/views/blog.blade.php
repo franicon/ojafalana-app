@@ -27,10 +27,10 @@
                                 <article class="blog_item">
                                     <div class="blog_item_img">
                                         <img class="card-img rounded-0" src="{{ asset('storage/' . $post->thumbnail) }}" alt="">
-                                        <div class="blog_item_date">
-                                            <h3>{{$post->created_at->format('d')}}</h3>
-                                            <p>{{$post->created_at->format('F')}}</p>
-                                        </div>
+{{--                                        <div class="blog_item_date">--}}
+{{--                                            <h3>{{$post->created_at->format('d')}}</h3>--}}
+{{--                                            <p>{{$post->created_at->format('F')}}</p>--}}
+{{--                                        </div>--}}
                                     </div>
                                     <div class="blog_details">
                                         <a class="d-inline-block" href="/press-releases/{{$post->slug}}">

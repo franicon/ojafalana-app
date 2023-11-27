@@ -50,16 +50,16 @@
 </head>
 <body>
 <!-- ? Preloader Start -->
-<div id="preloader-active">
-    <div class="preloader d-flex align-items-center justify-content-center">
-        <div class="preloader-inner position-relative">
-            <div class="preloader-circle"></div>
-            <div class="preloader-img pere-text">
-                <img src="assets/img/logo/loader-logo.svg" alt="">
-            </div>
-        </div>
-    </div>
-</div>
+{{--<div id="preloader-active">--}}
+{{--    <div class="preloader d-flex align-items-center justify-content-center">--}}
+{{--        <div class="preloader-inner position-relative">--}}
+{{--            <div class="preloader-circle"></div>--}}
+{{--            <div class="preloader-img pere-text">--}}
+{{--                <img src="assets/img/logo/loader-logo.svg" alt="">--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</div>--}}
 <!-- Preloader Start -->
 <header>
     <!-- Header Start -->
@@ -103,7 +103,7 @@
                                         <ul id="navigation">
                                             <li><a href="/">Profile</a></li>
 {{--                                         3   <li><a href="/about">Profile</a></li>--}}
-                                            <li><a href="/impacts">impacts</a></li>
+                                            <li><a href="/impact">impact</a></li>
                                             <li><a href="/initiatives">OJ Falana Initiatives </a></li>
                                             <li><a href="/press-releases">Press Releases</a></li>
                                             <li><a href="/contact">Contact</a></li>
@@ -162,7 +162,7 @@
                             <div class="footer-tittle">
                                 <h4>Important Link</h4>
                                 <ul>
-                                    <li><a href="/impacts">Impacts</a></li>
+                                    <li><a href="/impact">Impact</a></li>
                                     <li><a href="/initiatives">OJ Falana Initiatives</a></li>
                                     <li><a href="/press-releases">Press Releases</a></li>
                                     <li><a href="/contact">Contact Us</a></li>
@@ -286,5 +286,13 @@
 <script src="vendors-2/fontawesome/all.min.js"></script>
 <script src="assets-2/js/theme.js"></script>
 
+@if(session()->has('success'))
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        {{session()->get('success')}}
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    @endif
 </body>
 </html>

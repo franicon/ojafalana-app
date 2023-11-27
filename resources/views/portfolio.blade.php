@@ -227,11 +227,20 @@
                             youth by providing them with opportunities for education, skill development, and active
                             participation in civic processes. His motivational speeches and workshops have inspired a new
                             generation of socio-political leaders who share his vision for a more inclusive and just society.
-                            <br> <br>
+                        </p>
+                        <div class="col-lg-12 col-md-10 ftco-animate">
+                            <div class="col-lg-12 col-md-12 ftco-animate text-center">
+                                <!-- about-img -->
+                                <div>
+                                    <img class="img-fluid" src="assets/img/impacts/5.jpg" alt="profile">
+                                </div>
+                            </div>
+                        </div>
+                        <p class="px-lg-5 px-2 pt-30">
                             He contributed to the growth of the nation through his pen. His first work was “Analysis of Labour Market in
-                            Nigeria” in 2014. And in 2016, he wrote “Strategic Leadership and infrastructural development in Lagos State” in 2022.
-                            And And in 2023, he co-authored <strong><a class="text-primary text-underline" href="https://www.amazon.co.uk/BABAJIDE-SANWO-OLU-BABAGANA-ZULUM-Successfully/dp/B0BW345SKC" target="_blank">
-                                Two outstanding Governors Sanwoolu and Zulum.</a></strong>
+                            Nigeria” in 2014. And in 2022, he wrote “Strategic Leadership and infrastructural development in Lagos State”.
+                            And in 2023, he co-authored <strong><a class="text-primary text-underline" href="https://www.amazon.co.uk/BABAJIDE-SANWO-OLU-BABAGANA-ZULUM-Successfully/dp/B0BW345SKC" target="_blank">
+                                Two outstanding Governors Sanwoolu and Zulum.</a></strong>
                             Over the years, Falana’s contributions have earned numerous awards, including the Most Vibrant Student in Economics at
                             KNURE, Ukraine, in 2013 and the Most Outstanding Youth in Education at the 2022 Lagos Youth Awards.
                         </p>
@@ -261,7 +270,7 @@
     <section class="mb-140 section-padding" id="header">
         <div class="container ftco-animate">
             <div class="section-tittle mb-50 text-center">
-                <h2 class="text-center">Impacts in office.</h2>
+                <h2 class="text-center">Impact in office.</h2>
                 <p class="text-700"> As Permanent Board Member at Lagos State Universal Basic Education Board
                     (SUBEB).</p>
             </div>
@@ -330,10 +339,10 @@
                                 <div class="blog-img">
                                     <img class="img-fluid" src="{{ asset('storage/' . $post->thumbnail) }}" alt="">
                                     <!-- Blog date -->
-                                    <div class="blog-date text-center">
-                                        <span>{{$post->created_at->format('d')}}</span>
-                                        <p>{{$post->created_at->format('F')}}</p>
-                                    </div>
+{{--                                    <div class="blog-date text-center">--}}
+{{--                                        <span>{{$post->created_at->format('d')}}</span>--}}
+{{--                                        <p>{{$post->created_at->format('F')}}</p>--}}
+{{--                                    </div>--}}
                                 </div>
                                 <div class="blog_details">
                                     <a class="d-inline-block" href="/press-releases/{{$post->slug}}">

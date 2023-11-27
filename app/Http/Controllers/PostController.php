@@ -26,40 +26,4 @@ class PostController extends Controller
             'posts' => $posts->get()
         ]);
     }
-
-    public function create()
-    {
-        return view('admin/create');
-
-    }
-
-    public function store()
-    {
-        $attributes = request()->validate([
-            'title' => 'required',
-            'thumbnail' => 'required|image',
-            'body_one' => 'required',
-            'body_two' => 'required',
-            'publish_on' => 'sometimes',
-            'external_url' => 'sometimes'
-
-
-        ]);
-
-        $titleWords = implode(' ', array_slice(explode(' ', $attributes['title']), 0, 4));
-        $attributes['slug'] = Str::slug($titleWords, '_');
-        $attributes['thumbnail'] = request()->file('thumbnail')->store('thumbnails', 'public');
-
-        // Ensure the slug is unique
-        $originalSlug = $attributes['slug'];
-        $count = 1;
-        while (Post::where('slug', $attributes['slug'])->exists()) {
-            $attributes['slug'] = $originalSlug . '_' . $count;
-            $count++;
-        }
-
-        Post::create($attributes);
-
-        return redirect('/press-releases');
-    }
 }

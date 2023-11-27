@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>OjFalana-Dashboard</title>
+    <title>OJ-Falana</title>
     <!-- HTML5 Shim and Respond.js IE10 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 10]>
@@ -12,7 +12,13 @@
     <!-- Meta -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="keywords" content="bootstrap, bootstrap admin template, admin theme, admin dashboard, dashboard template, admin template, responsive" />
+    <meta name="author" content="Codedthemes" />
+    <!-- Favicon icon -->
+
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
     <!-- Favicon icon -->
     <link rel="icon" href="../../assets-admin/images/favicon.ico" type="image/x-icon">
     <!-- Google font-->
@@ -34,7 +40,7 @@
     <link rel="stylesheet" type="text/css" href="{{asset('assets-admin/css/style.css')}}">
 </head>
 
-<body>
+<body themebg-pattern="theme1">
 <!-- Pre-loader start -->
 <div class="theme-loader">
     <div class="loader-track">
@@ -89,88 +95,68 @@
     </div>
 </div>
 <!-- Pre-loader end -->
-<div id="pcoded" class="pcoded">
-    <div class="pcoded-overlay-box"></div>
-    <div class="pcoded-container navbar-wrapper">
-        <nav class="navbar header-navbar pcoded-header">
-            <div class="navbar-wrapper">
-                <div class="navbar-logo justify-content-lg-start">
-                    <a class="mobile-menu waves-effect waves-light" id="mobile-collapse" href="#!">
-                        <i class="ti-menu"></i>
-                    </a>
-                </div>
-                <div class="navbar-container container-fluid">
-                    <ul class="nav-left">
-                        <li>
-                            <div class="sidebar_toggle"><a href="javascript:void(0)"><i class="ti-menu"></i></a></div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+<section class="login-block">
+    <!-- Container-fluid starts -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <form class="md-float-material form-material" method="POST" action="/auth">
+                    @csrf
+                    <div class="text-center">
+                        <img src="assets/images/logo.png" alt="logo.png">
+                    </div>
+                    <div class="auth-box card">
+                        <div class="card-block">
+                            <div class="row m-b-20">
+                                <div class="col-md-12">
+                                    <h3 class="text-center txt-primary">Log In</h3>
+                                </div>
+                            </div>
+                            <div class="form-group form-primary">
+                                <input type="text" name="username" for="username" class="form-control">
+                                @error('username')
+                                <p class="text-danger">{{$message}}</p>
+                                @enderror
+                                <span class="form-bar"></span>
+                                <label class="float-label">Enter Username</label>
 
-        <div class="pcoded-main-container">
-            <div class="pcoded-wrapper">
-                <nav class="pcoded-navbar">
-                    <div class="sidebar_toggle"><a href="#"><i class="icon-close icons"></i></a></div>
-                    <div class="pcoded-inner-navbar main-menu">
-                        <div class="">
-                            <div class="main-menu-header">
-                                <img class="img-80 img-radius" src="../../OJ.svg"
-                                     alt="User-Profile-Image">
-                                <form class="user-details" method="POST" action="/logout">
-                                    @csrf
-                                    <button type="submit" class="btn btn-primary" id="more-details"> <i class="ti-layout-sidebar-left"></i> Logout</button>
-                                </form>
+                            </div>
+                            <div class="form-group form-primary">
+                                <input type="password" name="password" class="form-control">
+                                @error('password')
+                                <p class="text-danger">{{$message}}</p>
+                                @enderror
+                                <span class="form-bar"></span>
+                                <label class="float-label">Enter Password</label>
+                            </div>
+                            <div class="row m-t-30">
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20">Log In</button>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <p class="text-inverse text-left m-b-0">Thank you.</p>
+                                    <p class="text-inverse text-left"><a href="/"><b>Back to website</b></a></p>
+                                </div>
                             </div>
                         </div>
-
-                        <div class="pcoded-navigation-label">Links</div>
-                        <ul class="pcoded-item pcoded-left-item">
-                            <li class="">
-                                <a href="/main/posts" class="waves-effect waves-dark">
-                                    <span class="pcoded-micon"><i class="ti-home"></i><b>D</b></span>
-                                    <span class="pcoded-mtext">All Posts</span>
-                                    <span class="pcoded-mcaret"></span>
-                                </a>
-                            </li>
-                        </ul>
-                        <ul class="pcoded-item pcoded-left-item">
-                            <li class="">
-                                <a href="/main/post/create" class="waves-effect waves-dark">
-                                    <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
-                                    <span class="pcoded-mtext">New Post</span>
-                                    <span class="pcoded-mcaret"></span>
-                                </a>
-                            </li>
-                        </ul>
-{{--                        <div class="pcoded-navigation-label">Tables</div>--}}
-{{--                        <ul class="pcoded-item pcoded-left-item">--}}
-{{--                            <li class="">--}}
-{{--                                <a href="bs-basic-table.html" class="waves-effect waves-dark">--}}
-{{--                                    <span class="pcoded-micon"><i class="ti-receipt"></i><b>B</b></span>--}}
-{{--                                    <span class="pcoded-mtext">Table</span>--}}
-{{--                                    <span class="pcoded-mcaret"></span>--}}
-{{--                                </a>--}}
-{{--                            </li>--}}
-{{--                        </ul>--}}
                     </div>
-                </nav>
-                @yield('content')
+                </form>
             </div>
+            <!-- end of col-sm-12 -->
         </div>
+        <!-- end of row -->
     </div>
-</div>
-
-<script src="https://cdn.ckeditor.com/ckeditor5/23.0.0/classic/ckeditor.js"></script>
-<script>
-    ClassicEditor
-        .create( document.querySelector( '#editor' ) )
-        .catch( error => {
-            console.error( error );
-        } );
-</script>
-
+    <!-- end of container-fluid -->
+</section>
+<!-- Warning Section Starts -->
+<!-- Older IE warning message -->
+<!--[if lt IE 10]>
+<![endif]-->
+<!-- Warning Section Ends -->
+<!-- Required Jquery -->
 <!-- Required Jquery -->
 <script type="text/javascript" src="{{asset('assets-admin/js/jquery/jquery.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('assets-admin/js/jquery-ui/jquery-ui.min.js')}}"></script>
@@ -190,4 +176,5 @@
 
 <script type="text/javascript" src="{{asset('assets-admin/js/script.js')}}"></script>
 </body>
+
 </html>
